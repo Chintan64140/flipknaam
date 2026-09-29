@@ -1,0 +1,26 @@
+
+2025-03-26 13:57:52: Page View: logout.php /admin_panel/logout.php 
+2025-03-26 13:57:53: Page View: login.php /admin_panel/login.php 
+2025-03-26 13:58:33: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => bhadorandvo@gmail.com
+            [1] => bhadorandvo@gmail.com
+        )
+
+    [SessionKey] => 1_67e4080908d58
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2025-03-26 13:58:33: session_key_value 2 = 1_67e4080908d58
+2025-03-26 13:58:33: Array
+(
+    [PHPSESSID] => ciivqfcl8rp3ceac70mrpo1rr1
+)
+
+2025-03-26 13:58:33: session_key__1 from cookie = 
+2025-03-26 13:58:33: set_user_data_in_session -- DONE 1_67e4080908d58
+2025-03-26 13:58:33: Page View: index.php /admin_panel/index.php 
+2025-03-26 13:59:19: Page View: manage_products.php /admin_panel/manage_products.php 

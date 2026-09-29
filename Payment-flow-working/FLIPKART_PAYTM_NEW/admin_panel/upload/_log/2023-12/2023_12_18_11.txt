@@ -1,0 +1,62 @@
+
+2023-12-18 11:05:53: Page View: logout.php /admin_panel/logout.php 
+2023-12-18 11:05:54: Page View: login.php /admin_panel/login.php 
+2023-12-18 11:06:15: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => admin@fk.com
+            [1] => fbtfeed9@gmail.com
+        )
+
+    [SessionKey] => 1_658027a70eef4
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-12-18 11:06:15: session_key_value 2 = 1_658027a70eef4
+2023-12-18 11:06:15: Array
+(
+    [_ga_XFJ0V9X5NX] => GS1.1.1702716167.5.1.1702717562.0.0.0
+    [_gid] => GA1.2.1144277311.1702882479
+    [_ga_3W6FG4TCGR] => GS1.1.1702891219.8.0.1702891219.0.0.0
+    [_ga] => GA1.1.659418739.1702292948
+    [_ga_J30WFS41YR] => GS1.1.1702895626.9.1.1702897547.0.0.0
+    [PHPSESSID] => drlgpcgojk4f57750t2pf24r4t
+)
+
+2023-12-18 11:06:15: session_key__1 from cookie = 
+2023-12-18 11:06:15: set_user_data_in_session -- DONE 1_658027a70eef4
+2023-12-18 11:06:15: Page View: index.php /admin_panel/index.php 
+2023-12-18 11:06:16: Page View: manage_setting.php /admin_panel/manage_setting.php 
+2023-12-18 11:06:28: Page View: manage_products.php /admin_panel/manage_products.php 
+2023-12-18 11:32:29: Page View: logout.php /admin_panel/logout.php 
+2023-12-18 11:32:31: Page View: login.php /admin_panel/login.php 
+2023-12-18 11:34:31: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => admin@fk.com
+            [1] => fbtfeed9@gmail.com
+        )
+
+    [SessionKey] => 1_65802e472e813
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-12-18 11:34:31: session_key_value 2 = 1_65802e472e813
+2023-12-18 11:34:31: Array
+(
+    [_ga_XFJ0V9X5NX] => GS1.1.1702716167.5.1.1702717562.0.0.0
+    [_gid] => GA1.2.1144277311.1702882479
+    [_ga_3W6FG4TCGR] => GS1.1.1702891219.8.0.1702891219.0.0.0
+    [_ga] => GA1.1.659418739.1702292948
+    [PHPSESSID] => pv6cr3mqplac4ro00dt45jit4r
+    [_ga_J30WFS41YR] => GS1.1.1702895626.9.1.1702899222.0.0.0
+)
+
+2023-12-18 11:34:31: session_key__1 from cookie = 
+2023-12-18 11:34:31: set_user_data_in_session -- DONE 1_65802e472e813
+2023-12-18 11:34:31: Page View: index.php /admin_panel/index.php 
+2023-12-18 11:34:33: Page View: manage_products.php /admin_panel/manage_products.php 

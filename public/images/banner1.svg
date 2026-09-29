@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+  <text x="50" y="120" fill="#ffffff" font-family="system-ui, sans-serif" font-size="40" font-weight="800">BIGGEST SALE OF THE YEAR</text>
+  <text x="50" y="180" fill="#facc15" font-family="system-ui, sans-serif" font-size="28" font-weight="700">Up To 80% Off on All Categories</text>
+  <rect x="50" y="220" width="180" height="50" rx="25" fill="#fb641b"/>
+  <text x="140" y="252" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="700" text-anchor="middle">SHOP NOW</text>
+  <circle cx="700" cy="160" r="100" fill="#60a5fa" opacity="0.2"/>
+  <circle cx="750" cy="80" r="50" fill="#facc15" opacity="0.3"/>
+</svg>

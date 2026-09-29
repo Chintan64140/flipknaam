@@ -1,0 +1,33 @@
+
+2023-12-18 13:43:34: Page View: logout.php /admin_panel/logout.php 
+2023-12-18 13:43:35: Page View: login.php /admin_panel/login.php 
+2023-12-18 13:44:19: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => admin@fk.com
+            [1] => fbtfeed9@gmail.com
+        )
+
+    [SessionKey] => 1_65804cb364361
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-12-18 13:44:19: session_key_value 2 = 1_65804cb364361
+2023-12-18 13:44:19: Array
+(
+    [_gid] => GA1.2.1144277311.1702882479
+    [_ga_3W6FG4TCGR] => GS1.1.1702891219.8.0.1702891219.0.0.0
+    [_ga] => GA1.1.659418739.1702292948
+    [_ga_XFJ0V9X5NX] => GS1.1.1702902601.6.0.1702902713.0.0.0
+    [_ga_J30WFS41YR] => GS1.1.1702906712.11.1.1702906839.0.0.0
+    [PHPSESSID] => 85rho4irncd2ngkl1fnuko3560
+)
+
+2023-12-18 13:44:19: session_key__1 from cookie = 
+2023-12-18 13:44:19: set_user_data_in_session -- DONE 1_65804cb364361
+2023-12-18 13:44:19: Page View: index.php /admin_panel/index.php 
+2023-12-18 13:44:21: Page View: manage_products.php /admin_panel/manage_products.php 
+2023-12-18 13:44:22: Page View: manage_setting.php /admin_panel/manage_setting.php 
+2023-12-18 13:44:28: Page View: manage_products.php /admin_panel/manage_products.php 

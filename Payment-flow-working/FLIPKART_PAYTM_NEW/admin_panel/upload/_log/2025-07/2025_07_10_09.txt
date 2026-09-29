@@ -1,0 +1,33 @@
+
+2025-07-10 09:30:45: Page View: manage_products.php /admin_panel/manage_products.php 
+2025-07-10 09:30:56: Page View: manage_setting.php /admin_panel/manage_setting.php 
+2025-07-10 09:30:57: Page View: logout.php /admin_panel/logout.php 
+2025-07-10 09:30:57: Page View: login.php /admin_panel/login.php 
+2025-07-10 09:31:30: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => admin@fk.com
+            [1] => Kkinght14@gmail.com
+        )
+
+    [SessionKey] => 1_686f8872a195f
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2025-07-10 09:31:30: session_key_value 2 = 1_686f8872a195f
+2025-07-10 09:31:30: Array
+(
+    [_fbp] => fb.1.1749817151594.930814942307809885
+    [_fbc] => fb.1.1750222049810.IwY2xjawK_JDBleHRuA2FlbQIxMQBicmlkETFCTGJxdnhnOXVrNjFhb3JHAR4Vp7dVm7RaGypNf7xZoHWPanvVwZNnglv8D_Kp_SzFHlbWgYSL3uQqupIE2A_aem_KN5gekoracnlBU3LdF72hw
+    [_ga] => GA1.2.589437293.1751963650
+    [_gid] => GA1.2.1175654790.1752059198
+    [_ga_9Q6H0QETRF] => GS2.2.s1752059198$o3$g0$t1752059198$j60$l0$h0
+    [PHPSESSID] => 2ghhf4o3smnhic18nio7j2av84
+)
+
+2025-07-10 09:31:30: session_key__1 from cookie = 
+2025-07-10 09:31:30: set_user_data_in_session -- DONE 1_686f8872a195f
+2025-07-10 09:31:30: Page View: index.php /admin_panel/index.php 
+2025-07-10 09:31:33: Page View: manage_products.php /admin_panel/manage_products.php 

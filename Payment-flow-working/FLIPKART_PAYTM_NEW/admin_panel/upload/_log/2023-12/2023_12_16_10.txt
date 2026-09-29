@@ -1,0 +1,63 @@
+
+2023-12-16 10:05:38: Page View: logout.php /admin_panel/logout.php 
+2023-12-16 10:05:40: Page View: login.php /admin_panel/login.php 
+2023-12-16 10:06:01: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => fbtfeed9@gmail.com
+            [1] => fbtfeed9@gmail.com
+        )
+
+    [SessionKey] => 1_657d7689abb77
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-12-16 10:06:01: session_key_value 2 = 1_657d7689abb77
+2023-12-16 10:06:01: Array
+(
+    [_ga_XFJ0V9X5NX] => GS1.1.1702716167.5.1.1702717562.0.0.0
+    [_gid] => GA1.2.1137498203.1702717564
+    [PHPSESSID] => qqpb5evohpdp77ft64iul5qb3b
+    [_ga_3W6FG4TCGR] => GS1.1.1702721081.5.1.1702721142.0.0.0
+    [_ga] => GA1.2.659418739.1702292948
+    [_gat_gtag_UA_254758032_7] => 1
+    [_ga_J30WFS41YR] => GS1.1.1702721081.5.1.1702721142.0.0.0
+)
+
+2023-12-16 10:06:01: session_key__1 from cookie = 
+2023-12-16 10:06:01: set_user_data_in_session -- DONE 1_657d7689abb77
+2023-12-16 10:06:01: Page View: index.php /admin_panel/index.php 
+2023-12-16 10:06:03: Page View: manage_products.php /admin_panel/manage_products.php 
+2023-12-16 10:30:25: Page View: manage_products.php /admin_panel/manage_products.php 
+2023-12-16 10:30:29: Page View: logout.php /admin_panel/logout.php 
+2023-12-16 10:30:30: Page View: login.php /admin_panel/login.php 
+2023-12-16 10:30:49: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => fbtfeed9@gmail.com
+            [1] => fbtfeed9@gmail.com
+        )
+
+    [SessionKey] => 1_657d7c5902fd0
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-12-16 10:30:49: session_key_value 2 = 1_657d7c5902fd0
+2023-12-16 10:30:49: Array
+(
+    [_ga_XFJ0V9X5NX] => GS1.1.1702716167.5.1.1702717562.0.0.0
+    [_gid] => GA1.2.1137498203.1702717564
+    [_ga_J30WFS41YR] => GS1.1.1702721081.5.1.1702722241.0.0.0
+    [_ga_3W6FG4TCGR] => GS1.1.1702721081.5.1.1702722242.0.0.0
+    [_ga] => GA1.2.659418739.1702292948
+    [PHPSESSID] => tn9df2g9dfh66knn9e1aquhq1d
+)
+
+2023-12-16 10:30:49: session_key__1 from cookie = 
+2023-12-16 10:30:49: set_user_data_in_session -- DONE 1_657d7c5902fd0
+2023-12-16 10:30:49: Page View: index.php /admin_panel/index.php 
+2023-12-16 10:30:50: Page View: manage_products.php /admin_panel/manage_products.php 

@@ -1,0 +1,369 @@
+
+2026-03-09 17:04:05: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 171.61.163.149
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:04:05: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on null]
+2026-03-09 17:04:05: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:04:05: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:04:05: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:04:05: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:04:05: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:04:05: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:04:13: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 171.61.163.149
+    [op] => get_products
+    [page] => 2
+    [start] => 10
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on null]
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:04:13: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 171.61.163.149
+    [op] => get_products
+    [page] => 3
+    [start] => 20
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on null]
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:04:13: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 171.61.163.149
+    [op] => get_products
+    [page] => 4
+    [start] => 30
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on null]
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:04:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:12:57: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 171.61.163.149
+    [op] => get_product_details
+    [id] => 9af08cda54faea9adf40a201794183cf
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:13:03: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 171.61.163.149
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:13:03: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on null]
+2026-03-09 17:13:03: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:13:03: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:13:03: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:13:03: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:13:03: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:13:03: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:13:04: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 171.61.163.149
+    [op] => get_product_details
+    [id] => c81e728d9d4c2f636f067f89cc14862c
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:36:13: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 171.61.163.149
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:36:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on null]
+2026-03-09 17:36:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:36:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:36:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:36:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:36:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:36:13: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:36:25: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2402:3a80:4518:2118:ec16:f9cf:7736:c30d
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:36:25: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on null]
+2026-03-09 17:36:25: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:36:25: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:36:25: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:36:25: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:36:25: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:36:25: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:36:27: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2402:3a80:4518:2118:ec16:f9cf:7736:c30d
+    [op] => get_product_details
+    [id] => c81e728d9d4c2f636f067f89cc14862c
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:40:26: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 171.61.163.149
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:40:26: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on null]
+2026-03-09 17:40:26: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:40:26: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:40:26: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:40:26: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:40:26: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:40:26: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:40:27: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2402:3a80:4518:2118:ec16:f9cf:7736:c30d
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:40:27: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on null]
+2026-03-09 17:40:27: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:40:27: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:40:27: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:40:27: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:40:27: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:40:27: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:40:27: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2402:3a80:4518:2118:ec16:f9cf:7736:c30d
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:40:27: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on null]
+2026-03-09 17:40:27: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:40:27: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:40:27: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:40:27: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:40:27: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:40:27: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:40:29: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2402:3a80:4518:2118:ec16:f9cf:7736:c30d
+    [op] => get_product_details
+    [id] => c81e728d9d4c2f636f067f89cc14862c
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:40:41: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 171.61.163.149
+    [op] => get_product_details
+    [id] => c81e728d9d4c2f636f067f89cc14862c
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:44:22: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 171.61.163.149
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:44:22: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on null]
+2026-03-09 17:44:22: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:44:22: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:44:22: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:44:22: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:44:22: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:44:22: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:44:30: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2401:4900:4fee:b1c0:f02d:a2ff:fee0:37be
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:44:30: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on null]
+2026-03-09 17:44:30: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:44:30: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:44:30: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:44:30: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:44:30: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:44:30: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:44:39: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2401:4900:4fee:b1c0:f02d:a2ff:fee0:37be
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:44:39: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on null]
+2026-03-09 17:44:39: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:44:39: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:44:39: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:44:39: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:44:39: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:44:39: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:44:44: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 171.61.163.149
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:44:44: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on null]
+2026-03-09 17:44:44: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:44:44: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:44:44: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:44:44: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:44:44: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:44:44: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:44:47: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 171.61.163.149
+    [op] => get_product_details
+    [id] => d3d9446802a44259755d38e6d163e820
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:44:50: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2401:4900:4fee:b1c0:f02d:a2ff:fee0:37be
+    [op] => get_product_details
+    [id] => c81e728d9d4c2f636f067f89cc14862c
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:50:21: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 171.61.163.149
+    [op] => get_product_details
+    [id] => c81e728d9d4c2f636f067f89cc14862c
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:50:23: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 171.61.163.149
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:50:23: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on null]
+2026-03-09 17:50:23: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:50:23: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:50:23: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:50:23: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:50:23: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:50:23: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:50:25: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 171.61.163.149
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2026-03-09 17:50:25: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on null]
+2026-03-09 17:50:25: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:50:25: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on null]
+2026-03-09 17:50:25: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:50:25: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on null]
+2026-03-09 17:50:25: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:50:25: ServiceErrorHandler Error: #[2] occurred in [/home/u753794204/domains/yellowgreen-quail-377043.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on null]
+2026-03-09 17:50:27: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 171.61.163.149
+    [op] => get_product_details
+    [id] => c81e728d9d4c2f636f067f89cc14862c
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)

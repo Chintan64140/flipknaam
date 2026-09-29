@@ -1,0 +1,743 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>
+    Select Address - Select Address (0)  </title>
+  <link rel="icon" href="https://static-assets-web.flixcart.com/www/promos/new/20150528-140547-favicon-retina.ico" type="image/png">
+
+  <!-- Google Fonts Links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <!-- Fontawesome CSS Files -->
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/fontawesome.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/whiteboard-semibold.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/thumbprint-light.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/slab-press-regular.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/slab-regular.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-duotone-thin.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-duotone-solid.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-duotone-regular.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-duotone-light.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-thin.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-solid.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-regular.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/sharp-light.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/notdog-duo-solid.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/notdog-solid.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/jelly-fill-regular.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/jelly-duo-regular.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/jelly-regular.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/etch-solid.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/duotone-thin.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/duotone.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/duotone-regular.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/duotone-light.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/thin.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/solid.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/regular.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/light.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/brands.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/chisel-regular.css">
+
+  <!-- // Font Awesome Icons -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script type="tailwind-config">
+    {
+      "theme": {
+        "extend": {
+          "colors": {
+            "flip-blue": "#2874f0",
+            "flip-bg": "#f1f3f6",
+            "flip-text": "#212121",
+            "flip-purple": "#e7d9ff"
+          },
+          "fontFamily": {
+            "roboto": ["Roboto", "system-ui", "-apple-system", "Arial", "sans-serif"]
+          }
+        }
+      }
+    }
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('[class*="border"]').forEach(el => {
+        const classList = el.className;
+        const hasBorderColor = /border-[^\s-]+-\d{2,3}/.test(classList);
+        const hasCustomBorder = /border-\[.*?\]/.test(classList);
+    
+        if (!hasBorderColor && !hasCustomBorder) {
+          el.classList.add('border-gray-200');
+        }
+      });
+    });
+  </script>
+
+  
+  <!-- Global Cache Management System -->
+  <script>
+    // Global cache management variables
+    window.cacheManager = {
+      currentCacheVersion: null,
+      storedCacheVersion: null,
+      
+      // Check cache version and clear localStorage if needed
+      checkCacheVersion: function() {
+        const self = this;
+        $.ajax({
+          url: '/api/cache-version.php',
+          method: 'GET',
+          success: function (data) {
+            if (data.success && data.cache_versions) {
+              // Check products cache version
+              if (data.cache_versions.products) {
+                self.currentCacheVersion = data.cache_versions.products.version;
+                self.storedCacheVersion = localStorage.getItem('products_cache_version');
+                
+                // If cache version has changed, clear localStorage
+                if (self.storedCacheVersion && self.storedCacheVersion != self.currentCacheVersion) {
+                  console.log('🔄 Products cache version changed from', self.storedCacheVersion, 'to', self.currentCacheVersion);
+                  self.clearLocalStorage();
+                }
+                
+                // Store current cache version
+                localStorage.setItem('products_cache_version', self.currentCacheVersion);
+              }
+              
+              // Check homepage products cache version
+              if (data.cache_versions.homepage_products) {
+                const homepageCacheVersion = data.cache_versions.homepage_products.version;
+                const storedHomepageCacheVersion = localStorage.getItem('homepage_products_cache_version');
+                
+                // If homepage products cache version has changed, clear localStorage
+                if (storedHomepageCacheVersion && storedHomepageCacheVersion != homepageCacheVersion) {
+                  console.log('🔄 Homepage products cache version changed from', storedHomepageCacheVersion, 'to', homepageCacheVersion);
+                  self.clearLocalStorage();
+                }
+                
+                // Store current homepage cache version
+                localStorage.setItem('homepage_products_cache_version', homepageCacheVersion);
+              }
+            }
+          },
+          error: function (error) {
+            console.error('❌ Error checking cache version:', error);
+          }
+        });
+      },
+      
+      // Clear localStorage function
+      clearLocalStorage: function() {
+        if (typeof(Storage) !== "undefined") {
+          // IMPORTANT: DO NOT clear cart data - only clear cache versions
+          // localStorage.removeItem("cartData"); // REMOVED - Cart should persist
+          // localStorage.removeItem("cart"); // REMOVED - Cart should persist
+          localStorage.removeItem("products_cache_version");
+          localStorage.removeItem("homepage_products_cache_version");
+          
+          // Only clear cache-related keys, NOT cart or address data
+          const keysToRemove = [];
+          for (let i = 0; i < localStorage.length; i++) {
+            let key = localStorage.key(i);
+            // Only remove cache-related keys, preserve cart and address data
+            if (key && (key.includes("cache") || key.includes("Cache")) && !key.includes("cart") && !key.includes("Cart")) {
+              keysToRemove.push(key);
+            }
+          }
+          keysToRemove.forEach(key => localStorage.removeItem(key));
+          
+          console.log('🧹 Cache cleared (cart data preserved)');
+          
+          // Show notification to user
+          self.showNotification('🔄 Fresh data loaded!', 'success');
+        }
+      },
+      
+      // Update cache version from API response
+      updateCacheVersion: function(version) {
+        if (version) {
+          this.currentCacheVersion = version;
+          localStorage.setItem('products_cache_version', version);
+        }
+      },
+      
+      // Simple notification system
+      showNotification: function(message, type = 'info') {
+        // Create notification element
+        const notification = $('<div class="fixed top-20 left-1/2 transform -translate-x-1/2 z-50 px-4 py-2 rounded-lg shadow-lg text-white text-sm font-medium transition-all duration-300"></div>');
+        
+        // Set notification style based on type
+        if (type === 'success') {
+          notification.addClass('bg-green-500');
+        } else if (type === 'error') {
+          notification.addClass('bg-red-500');
+        } else {
+          notification.addClass('bg-blue-500');
+        }
+        
+        notification.text(message);
+        
+        // Add to page
+        $('body').append(notification);
+        
+        // Show notification
+        setTimeout(() => {
+          notification.addClass('opacity-100 translate-y-0');
+        }, 100);
+        
+        // Hide and remove notification after 3 seconds
+        setTimeout(() => {
+          notification.addClass('opacity-0 -translate-y-2');
+          setTimeout(() => {
+            notification.remove();
+          }, 300);
+        }, 3000);
+      }
+    };
+    
+    // Initialize cache checking on page load
+    $(document).ready(function() {
+      // Check cache version on every page load
+      window.cacheManager.checkCacheVersion();
+    });
+  </script>
+  <style>
+    /* Custom slider styles */
+    *{
+        user-select: none;
+    }
+    
+    .slide {
+      transition: opacity 0.3s ease-in-out;
+    }
+    
+    .slide.active {
+      opacity: 1;
+    }
+    
+    .slide:not(.active) {
+      opacity: 0;
+    }
+    
+    .dot.active {
+      background-color: #374151 !important;
+    }
+    
+    .dot:not(.active) {
+      background-color: #d1d5db !important;
+    }
+    
+    /* Loading spinner fade transition */
+    #loading-spinner {
+      transition: opacity 0.5s ease-out;
+    }
+    
+    /* Product card mobile styling to match image design */
+    .product-card {
+      border-radius: 0;
+      transition: transform 0.2s ease;
+    }
+    
+    .product-card img {
+      border-radius: 8px 8px 0 0;
+    }
+    
+    /* Mobile-specific grid adjustments */
+    @media (max-width: 480px) {
+      
+      .product-card {
+        font-size: 12px;
+      }
+      
+      .product-card .text-lg {
+        font-size: 16px;
+      }
+      
+      .product-card .text-sm {
+        font-size: 13px;
+      }
+      
+      .product-card .text-xs {
+        font-size: 11px;
+      }
+    }
+    
+    /* Notification styles */
+    .notification {
+      opacity: 0;
+      transform: translateY(-10px);
+      transition: all 0.3s ease;
+    }
+    
+    .notification.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17980451196"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17980451196');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KDY47QLDC4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KDY47QLDC4');
+</script></head>
+
+<body class="bg-gray-100 text-flip-text max-w-[480px] mx-auto ![font-family:'Inter']">
+  <!-- Loading Spinner -->
+  <div id="loading-spinner" class="fixed inset-0 z-50 flex items-center justify-center bg-white">
+    <i class="fa-duotone fa-solid fa-spinner-third fa-spin text-6xl text-flip-blue"></i>
+  </div>
+
+      <header id="product-header" class="sticky top-0 z-30 flex items-center justify-between p-2 bg-white border-b border-gray-200">
+  <!-- Left -->
+<div class="flex items-center gap-1">
+  <button class="p-2 rounded-lg hover:bg-gray-100" 
+          aria-label="Back"
+          id="backBtn">
+    <span class="text-lg"><i class="fa-regular fa-arrow-left"></i></span>
+  </button>
+
+  <span id="selectAddressText" class="text-base font-medium cursor-pointer">
+    Select Address (0)
+  </span>
+</div>
+
+<script>
+document.getElementById("backBtn").addEventListener("click", function() {
+  history.back();
+});
+
+document.getElementById("selectAddressText").addEventListener("click", function() {
+  history.back();
+});
+</script>
+
+
+  <!-- Right -->
+  <div class="flex items-center gap-1" id="right-icons">
+    <button class="p-1 rounded-lg hover:bg-gray-100" aria-label="Search">
+      <span class="text-lg"><i class="fa-whiteboard fa-semibold fa-magnifying-glass"></i></span>
+    </button>
+    <button aria-label="Cart" data-href="/cart" class="p-1 rounded-lg hover:bg-gray-100" aria-label="Cart">
+      <span class="text-lg"><i class="fa-solid fa-cart-shopping"></i></span>
+      <span id="cartCount" class="flex items-center justify-center text-center right-10 top-3 text-[8px] w-[15px] h-[15px] text-white font-bold absolute bg-red-500 rounded-full">1</span>
+    </button>
+    <button class="p-1 rounded-lg hover:bg-gray-100">
+      <span class="text-lg"><i class="fa-regular fa-circle-user-circle-check"></i></span>
+    </button>
+  </div>
+</header>
+
+  
+<!-- Include Sidebar -->
+
+<!-- Sidebar Overlay -->
+<div id="sidebar-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden" onclick="closeSidebar()"></div>
+
+<!-- Sidebar -->
+<div id="sidebar" class="fixed left-0 top-0 h-full w-80 max-w-[85vw] bg-white z-50 transform -translate-x-full transition-transform duration-300 ease-in-out shadow-2xl !text-gray-500">
+  
+  <!-- Header Section with Blue Bar -->
+  <div class="bg-flip-blue text-white p-3">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+          <i class="fa-light fa-circle-user text-lg"></i>
+        </div>
+        <span class="font-medium">User</span>
+      </div>
+      <div class="w-6 h-6 bg-yellow-400 rounded-full flex items-center justify-center">
+        <img class="text-flip-blue font-bold text-lg" src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-cbb357.png">
+      </div>
+    </div>
+  </div>
+
+  <!-- Menu Items -->
+  <div class="py-2 overflow-y-auto h-[calc(100vh-80px)]">
+    <!-- First Group: Zones & Categories -->
+    <div class="px-4 py-2">
+      <div class="flex items-center gap-3 mt-2 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px] !text-gray-500">
+        <i class="fa-solid fa-circle-bolt"></i>
+        <span class=" font-medium">SuperCoin Zone</span>
+      </div>
+      
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px] !text-gray-500">
+        <i class="fa-light fa-gem "></i>
+        <span class=" font-medium">Flipkart Plus Zone</span>
+      </div>
+      
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px] !text-gray-500">
+        <i class="fa-light fa-th-large "></i>
+        <span class=" font-medium">All Categories</span>
+      </div>
+      
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px] !text-gray-500">
+        <i class="fa-notdog fa-solid fa-compass"></i>
+        <span class=" font-medium">More on Flipkart</span>
+      </div>
+    </div>
+
+    <!-- Separator -->
+    <div class="border-t border-gray-200 mx-4 my-2"></div>
+
+    <!-- Second Group: App Settings/Features -->
+    <div class="px-4 py-2">
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px]">
+        <div class="w-6 h-6 rounded flex items-center justify-center ">
+            <i class="fa-notdog fa-solid fa-language"></i>
+        </div>
+        <span class=" font-medium">Choose Language</span>
+      </div>
+      
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px]">
+        <i class="fa-light fa-tag  text-lg"></i>
+        <span class=" font-medium">Offer Zone</span>
+      </div>
+      
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px]">
+        <i class="fa-light fa-briefcase  text-lg"></i>
+        <span class=" font-medium">Sell on Flipkart</span>
+      </div>
+    </div>
+
+    <!-- Separator -->
+    <div class="border-t border-gray-200 mx-4 my-2"></div>
+
+    <!-- Third Group: User-Specific Actions -->
+    <div class="px-4 py-2">
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px]" data-href="/orders">
+        <i class="fa-light fa-box  text-lg"></i>
+        <span class=" font-medium">My Orders</span>
+      </div>
+      
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px]" data-href="/coupons">
+        <i class="fa-light fa-tag  text-lg"></i>
+        <span class=" font-medium">Coupons</span>
+      </div>
+      
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px]" data-href="/cart">
+        <i class="fa-light fa-cart-shopping  text-lg"></i>
+        <span class=" font-medium">My Cart</span>
+      </div>
+      
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100" data-href="/wishlist">
+        <i class="fa-light fa-heart  text-lg"></i>
+        <span class=" font-medium">My Wishlist</span>
+      </div>
+      
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px]" data-href="/account">
+        <i class="fa-light fa-circle-user  text-lg"></i>
+        <span class=" font-medium">My Account</span>
+      </div>
+      
+      <div class="flex items-center gap-3 pmb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px]" data-href="/notifications">
+        <i class="fa-light fa-bell  text-lg"></i>
+        <span class=" font-medium">My Notifications</span>
+      </div>
+    </div>
+
+    <!-- Separator -->
+    <div class="border-t border-gray-200 mx-4 my-2"></div>
+
+    <!-- Fourth Group: Help & Legal -->
+    <div class="px-4 py-2">
+      <div class="mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100">
+        <span class=" font-medium">Help Centre</span>
+      </div>
+      
+      <div class="mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100">
+        <span class=" font-medium">Legal</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+/* Additional mobile-specific styles */
+@media (max-width: 480px) {
+  #sidebar {
+    width: 85vw;
+    max-width: 320px;
+  }
+  
+  #sidebar .py-3 {
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
+  }
+  
+  #sidebar .text-lg {
+    font-size: 1.125rem;
+  }
+}
+
+/* Touch-friendly interactions */
+#sidebar [data-href],
+#sidebar .cursor-pointer {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+/* Smooth scrolling for mobile */
+#sidebar .overflow-y-auto {
+  -webkit-overflow-scrolling: touch;
+}
+</style>
+
+<script>
+// Sidebar functionality
+function openSidebar() {
+  document.getElementById('sidebar').classList.remove('-translate-x-full');
+  document.getElementById('sidebar-overlay').classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeSidebar() {
+  document.getElementById('sidebar').classList.add('-translate-x-full');
+  document.getElementById('sidebar-overlay').classList.add('hidden');
+  document.body.style.overflow = 'auto';
+}
+
+// Close sidebar on escape key
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Escape') {
+    closeSidebar();
+  }
+});
+
+// Handle navigation clicks
+document.addEventListener('click', function(event) {
+  if (event.target.closest('[data-href]')) {
+    const href = event.target.closest('[data-href]').getAttribute('data-href');
+    closeSidebar();
+    
+    // Navigate to the specified page
+    if (href === 'cart') {
+      window.location.href = 'cart.php';
+    } else if (href === 'index') {
+      window.location.href = 'index.php';
+    } else {
+      // Add other navigation logic here
+      console.log('Navigating to:', href);
+    }
+  }
+});
+
+// Close sidebar when clicking outside (on overlay)
+document.addEventListener('click', function(event) {
+  if (event.target.id === 'sidebar-overlay') {
+    closeSidebar();
+  }
+});
+
+// Prevent body scroll when sidebar is open
+document.addEventListener('touchmove', function(event) {
+  if (document.getElementById('sidebar-overlay').classList.contains('hidden') === false) {
+    event.preventDefault();
+  }
+}, { passive: false });
+</script>
+
+<main class="bg-gray-200">
+  <div class="">
+    <!-- Progress Indicator -->
+    <div class="pb-2 shadow-sm">
+        <img class="w-full" alt="Address" loading="lazy" src="/assets/images/address.png">
+    </div>
+
+    <!-- Add New Address Option -->
+    <div class="px-4 py-3 border-b border-gray-100 bg-white">
+      <button class="flex items-center text-flip-blue text-sm font-medium" onclick="addNewAddress()">
+        <i class="fa-regular fa-plus text-lg mr-2"></i>
+        Add a new address
+      </button>
+    </div>
+
+    <!-- Address List -->
+    <div id="addressList" class="bg-white mt-2"></div>
+  </div>
+
+  <!-- Fixed Deliver Button at Bottom -->
+  <div class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 p-4 max-w-[480px] mx-auto">
+    <button id="deliverBtn" onclick="proceedToOrderSummary()"
+      class="w-full bg-orange-500 text-white py-3 rounded-md font-semibold hover:bg-orange-600 transition text-base">
+      DELIVER HERE
+    </button>
+  </div>
+</main>
+
+<script>
+$(document).ready(function() {
+  // Fetch addresses primarily from addressesData (saved by address.php). Fallback to appData via universal.js
+  let data = null;
+  try { data = JSON.parse(localStorage.getItem('addressesData')); } catch(_) {}
+  if (!data || !data.addresses) {
+    try { data = JSON.parse(localStorage.getItem('appData')); } catch(_) {}
+  }
+  const list = (data && data.addresses && data.addresses.list) ? data.addresses.list : {};
+  const keys = Object.keys(list);
+
+  // Update header title count
+  const headerTitle = document.querySelector('header .text-base.font-medium');
+  if (headerTitle) {
+    headerTitle.textContent = keys.length > 0 
+      ? `Select Address (${keys.length})` 
+      : 'Select Address';
+  }
+
+
+  const $container = $('#addressList');
+  if (keys.length === 0) {
+    $container.html('<div class="p-4 text-sm text-gray-600">No saved addresses. Add a new address.</div>');
+    return;
+  }
+
+  const itemsHtml = keys.map((id, idx) => {
+    const a = list[id] || {};
+    const name = a.name || '';
+    const badge = (a.type || '').toUpperCase();
+    const addrLine = [a.house, a.road, a.city, a.state].filter(Boolean).join(', ') + (a.pincode ? ` - ${a.pincode}` : '');
+    const phone = a.number || '';
+    const checked = idx === 0 ? 'checked' : '';
+    return `
+      <div class=\"address-item border-b border-gray-200 py-4\" data-address-id=\"${id}\">
+        <div class=\"flex items-start space-x-3 px-4\">
+          <div class=\"mt-1\">
+            <input type=\"radio\" id=\"address-${id}\" name=\"selectedAddress\" value=\"${id}\" ${checked} class=\"w-4 h-4 text-flip-blue border-gray-300 focus:ring-flip-blue\">
+          </div>
+          <div class=\"flex-1\">
+            <div class=\"flex items-center justify-between\"> 
+              <div class=\"flex items-center space-x-2\">
+                <h3 class=\"text-sm font-medium text-gray-900\">${name}</h3>
+                ${badge ? `<span class=\"bg-gray-600 text-white text-xs px-2 py-0.5 rounded\">${badge}</span>` : ''}
+              </div>
+              <button class=\"edit-btn text-flip-blue text-sm font-medium shadow-sm border border-gray-200 px-2 py-1 rounded\" onclick=\"editAddress('${id}')\">Edit</button> 
+            </div>
+            <p class=\"text-sm text-gray-600 mt-1\">${addrLine}</p>
+            <p class=\"text-sm text-gray-500 mt-1\">${phone}</p>
+          </div>
+        </div>
+      </div>`;
+  }).join('');
+
+  $container.html(itemsHtml);
+
+  // Handle address selection
+  $(document).on('change', 'input[name="selectedAddress"]', function() {
+    const selectedAddressId = $(this).val();
+    localStorage.setItem('selectedAddressId', selectedAddressId);
+    $('.address-item').removeClass('selected');
+    $(this).closest('.address-item').addClass('selected');
+  });
+
+  // Initialize selection: prefer previously saved id
+  const savedSelected = localStorage.getItem('selectedAddressId');
+  const initialId = (savedSelected && list[savedSelected]) ? savedSelected : keys[0];
+  if (initialId) {
+    $(`#address-${initialId}`).prop('checked', true);
+    localStorage.setItem('selectedAddressId', initialId);
+    $(`.address-item[data-address-id=\"${initialId}\"]`).addClass('selected');
+  }
+});
+
+function addNewAddress() {
+  window.location.href = 'address.php';
+}
+
+function editAddress(addressId) {
+  window.location.href = `address.php?edit=${addressId}`;
+}
+
+function proceedToOrderSummary() {
+  const selectedAddressId = $('input[name="selectedAddress"]:checked').val();
+  if (!selectedAddressId) {
+    alert('Please select an address');
+    return;
+  }
+  localStorage.setItem('selectedAddressId', selectedAddressId);
+  window.location.href = 'order-summary.php';
+}
+</script>
+
+<style>
+/* Address item selection styling */
+.address-item.selected {
+  background-color: #f8fafc;
+}
+
+.address-item:hover {
+  background-color: #f8fafc;
+}
+
+/* Custom radio button styling */
+input[type="radio"] {
+  accent-color: #2874f0;
+}
+
+/* Progress indicator styling */
+.progress-step {
+  transition: all 0.3s ease;
+}
+
+/* Button hover effects */
+#deliverBtn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);
+}
+
+/* Show Edit button only for selected address */
+.address-item .edit-btn { 
+  display: none; 
+}
+.address-item.selected .edit-btn { 
+  display: inline-block; 
+}
+
+/* Address type badge styling */
+.bg-gray-600 {
+  background-color: #4b5563;
+}
+
+/* Hide right icons in header */
+#right-icons {
+  display: none !important;
+}
+</style>
+
+<footer class="h-20"></footer>
+</main>
+  <script src="/assets/js/app.js"></script>
+  <script src="/assets/js/universal.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (typeof updateCartCount === "function") {
+        updateCartCount();
+      }
+    });
+  </script>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"63bffc2a7918498cbcfe38613ca500cf","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"31014a6d22cf48089c34d4b5ef62a560","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+
+</html>

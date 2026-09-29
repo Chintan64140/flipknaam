@@ -1,0 +1,21 @@
+
+2023-08-23 06:40:47: Page View: index.php /product/HTML/flipkart/admin_panel/ 
+2023-08-23 06:40:47: Auto Login Needed
+2023-08-23 06:40:48: Auto logged in from cookie: c7JFr4NljavQT4IGmI1Mkw==
+2023-08-23 06:40:48: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => admin@sailon.com
+            [1] => admin
+        )
+
+    [SessionKey] => 1_64e5a9f0261f8
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-08-23 06:40:48: session_key_value 2 = 1_64e5a9f0261f8
+2023-08-23 06:40:48: Auto Login Success. Should rediect to /product/HTML/flipkart/admin_panel/
+2023-08-23 06:40:48: Page View: index.php /product/HTML/flipkart/admin_panel/ 
+2023-08-23 06:40:56: Page View: manage_products.php /product/HTML/flipkart/admin_panel/manage_products.php 

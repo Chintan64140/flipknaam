@@ -1,0 +1,62 @@
+
+2025-03-23 15:15:50: Page View: index.php /offer/admin_panel/ 
+2025-03-23 15:15:50: Auto Login Needed
+2025-03-23 15:15:50: Auto Login Failed /offer/admin_panel/
+2025-03-23 15:15:50: Page View: login.php /offer/admin_panel/login.php 
+2025-03-23 15:16:07: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => bhadorandvo@gmail.com
+            [1] => bhadorandvo@gmail.com
+        )
+
+    [SessionKey] => 1_67e025b782bf6
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2025-03-23 15:16:07: session_key_value 2 = 1_67e025b782bf6
+2025-03-23 15:16:07: Array
+(
+    [PHPSESSID] => 54q8nfim5mcop2lig52gip6rtj
+    [_fbp] => fb.1.1742396234078.951632886628613465
+    [_ga] => GA1.2.1447149546.1742665379
+    [_gid] => GA1.2.376171860.1742665379
+    [_ga_9Q6H0QETRF] => GS1.2.1742681915.2.0.1742681915.60.0.0
+)
+
+2025-03-23 15:16:07: session_key__1 from cookie = 
+2025-03-23 15:16:07: set_user_data_in_session -- DONE 1_67e025b782bf6
+2025-03-23 15:16:07: Page View: index.php /offer/admin_panel/index.php 
+2025-03-23 15:16:10: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-23 15:24:26: Page View: index.php /offer/admin_panel/index.php 
+2025-03-23 15:24:28: Page View: manage_setting.php /offer/admin_panel/manage_setting.php 
+2025-03-23 15:24:29: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-23 15:28:37: Page View: index.php /offer/admin_panel/index.php 
+2025-03-23 15:28:38: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-23 15:32:30: Page View: logout.php /offer/admin_panel/logout.php 
+2025-03-23 15:32:30: Page View: login.php /offer/admin_panel/login.php 
+2025-03-23 15:32:50: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => bhadorandvo@gmail.com
+            [1] => bhadorandvo@gmail.com
+        )
+
+    [SessionKey] => 1_67e029a2841d6
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2025-03-23 15:32:50: session_key_value 2 = 1_67e029a2841d6
+2025-03-23 15:32:50: Array
+(
+    [PHPSESSID] => 288sro7mggb8o6thujba8iba0r
+)
+
+2025-03-23 15:32:50: session_key__1 from cookie = 
+2025-03-23 15:32:50: set_user_data_in_session -- DONE 1_67e029a2841d6
+2025-03-23 15:32:50: Page View: index.php /offer/admin_panel/index.php 
+2025-03-23 15:32:52: Page View: manage_products.php /offer/admin_panel/manage_products.php 

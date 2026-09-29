@@ -1,0 +1,26 @@
+
+2025-02-02 15:57:13: Page View: logout.php /admin_panel/logout.php 
+2025-02-02 15:57:14: Page View: login.php /admin_panel/login.php 
+2025-02-02 15:59:10: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => admin@fk.com
+            [1] => Royal@gmail.com
+        )
+
+    [SessionKey] => 1_679f964e8e27e
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2025-02-02 15:59:10: session_key_value 2 = 1_679f964e8e27e
+2025-02-02 15:59:10: Array
+(
+    [PHPSESSID] => r0fnmvsb63mq6i9bf8o2a8gu2f
+)
+
+2025-02-02 15:59:10: session_key__1 from cookie = 
+2025-02-02 15:59:10: set_user_data_in_session -- DONE 1_679f964e8e27e
+2025-02-02 15:59:10: Page View: index.php /admin_panel/index.php 
+2025-02-02 15:59:15: Page View: manage_products.php /admin_panel/manage_products.php 

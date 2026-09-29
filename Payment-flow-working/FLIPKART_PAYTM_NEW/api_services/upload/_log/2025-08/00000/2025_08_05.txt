@@ -1,0 +1,442 @@
+
+2025-08-05 18:40:46: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2409:40c1:10d8:7b79:cc38:2ebb:b68d:ac2e
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 18:40:46: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 18:40:46: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 18:40:46: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 18:40:46: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 18:40:46: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 18:40:46: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 18:40:46: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 18:40:49: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2409:40c1:10d8:7b79:cc38:2ebb:b68d:ac2e
+    [op] => get_product_details
+    [id] => eccbc87e4b5ce2fe28308fd9f2a7baf3
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 18:40:51: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2409:40c1:10d8:7b79:cc38:2ebb:b68d:ac2e
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 18:40:51: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 18:40:51: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 18:40:51: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 18:40:51: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 18:40:51: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 18:40:51: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 18:40:51: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 18:40:55: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2409:40c1:10d8:7b79:cc38:2ebb:b68d:ac2e
+    [op] => get_product_details
+    [id] => eccbc87e4b5ce2fe28308fd9f2a7baf3
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 18:41:00: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2409:40c1:10d8:7b79:cc38:2ebb:b68d:ac2e
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 18:41:00: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 18:41:00: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 18:41:00: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 18:41:00: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 18:41:00: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 18:41:00: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 18:41:00: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 18:43:26: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2409:40c1:10d8:7b79:9407:85e9:d108:2464
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 18:43:26: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 18:43:26: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 18:43:26: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 18:43:26: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 18:43:26: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 18:43:26: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 18:43:26: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 18:43:27: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2409:40c1:10d8:7b79:9407:85e9:d108:2464
+    [op] => get_product_details
+    [id] => eccbc87e4b5ce2fe28308fd9f2a7baf3
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 18:44:36: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2409:40c1:10d8:7b79:cc38:2ebb:b68d:ac2e
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 18:44:36: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 18:44:36: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 18:44:36: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 18:44:36: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 18:44:36: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 18:44:36: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 18:44:36: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 18:44:43: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2409:40c1:10d8:7b79:cc38:2ebb:b68d:ac2e
+    [op] => get_product_details
+    [id] => eccbc87e4b5ce2fe28308fd9f2a7baf3
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 18:45:32: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2409:40c1:10d8:7b79:cc38:2ebb:b68d:ac2e
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 18:45:32: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 18:45:32: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 18:45:32: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 18:45:32: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 18:45:32: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 18:45:32: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 18:45:32: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 18:46:32: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2a03:2880:10ff:71::
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 18:46:32: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 18:46:32: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 18:46:32: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 18:46:32: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 18:46:32: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 18:46:32: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 18:46:32: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 18:58:21: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2409:40c1:10d8:7b79:cc38:2ebb:b68d:ac2e
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 18:58:21: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 18:58:21: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 18:58:21: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 18:58:21: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 18:58:21: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 18:58:21: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 18:58:21: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:07: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2a03:2880:31ff:8::
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 19:12:07: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:07: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:07: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:07: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:07: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:07: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:07: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:07: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2a03:2880:30ff:5::
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 19:12:07: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:07: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:07: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:07: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:07: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:07: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:07: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:12: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2a03:2880:30ff:7::
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 19:12:12: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:12: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:12: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:12: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:12: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:12: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:12: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:22: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2a03:2880:30ff:7c::
+    [op] => get_product_details
+    [id] => 2838023a778dfaecdc212708f721b788
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 19:12:24: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2a03:2880:31ff:7::
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 19:12:24: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:24: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:24: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:24: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:24: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:24: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:24: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2a03:2880:31ff:4f::
+    [op] => get_products
+    [page] => 4
+    [start] => 30
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2a03:2880:31ff:4f::
+    [op] => get_products
+    [page] => 3
+    [start] => 20
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2a03:2880:31ff:4f::
+    [op] => get_products
+    [page] => 2
+    [start] => 10
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2a03:2880:31ff:4f::
+    [op] => get_products
+    [page] => 5
+    [start] => 40
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2a03:2880:31ff:4f::
+    [op] => get_products
+    [page] => 7
+    [start] => 60
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2a03:2880:31ff:4f::
+    [op] => get_products
+    [page] => 6
+    [start] => 50
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2a03:2880:31ff:4f::
+    [op] => get_products
+    [page] => 8
+    [start] => 70
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2a03:2880:31ff:4f::
+    [op] => get_products
+    [page] => 9
+    [start] => 80
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 19:12:34: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 23:54:30: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2409:40c1:415b:8abc:1db7:46ba:afe5:b75a
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 23:54:30: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 23:54:30: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 23:54:30: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 23:54:30: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 23:54:30: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 23:54:30: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 23:54:30: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 23:58:14: Array
+(
+    [QUERY_STRING] => 
+    [IP_ADDRESS] => 2406:da18:f29:f320:f714:ed42:65b2:aeb7
+    [op] => get_products
+    [page] => 1
+    [start] => 0
+    [length] => 10
+    [token] => b696f212abf683ad4f33430ab4f61b7e_c4ca4238a0b923820dcc509a6f75849b
+)
+
+2025-08-05 23:58:14: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [12]: [Trying to access array offset on value of type null]
+2025-08-05 23:58:14: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 23:58:14: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [14]: [Trying to access array offset on value of type null]
+2025-08-05 23:58:14: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 23:58:14: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [15]: [Trying to access array offset on value of type null]
+2025-08-05 23:58:14: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]
+2025-08-05 23:58:14: ServiceErrorHandler Error: #[2] occurred in [/home/u599965344/domains/antiquewhite-goshawk-292761.hostingersite.com/public_html/api_services/get_products.php] at line [17]: [Trying to access array offset on value of type null]

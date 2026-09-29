@@ -1,0 +1,70 @@
+
+2023-09-11 11:52:25: Page View: index.php /product/HTML/flipkart/admin_panel/index.php 
+2023-09-11 11:52:25: Auto Login Needed
+2023-09-11 11:52:27: ERROR: mysqli_sql_exception Object
+(
+    [message:protected] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+    [string:Exception:private] => 
+    [code:protected] => 1064
+    [file:protected] => E:\project\product\HTML\flipkart\api_services\_DATABASE.php
+    [line:protected] => 81
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\project\product\HTML\flipkart\api_services\_DATABASE.php
+                    [line] => 81
+                    [function] => prepare
+                    [class] => mysqli
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => SELECT usr.* FROM tbl_users as usr WHERE  
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\project\product\HTML\flipkart\api_services\login_user.php
+                    [line] => 42
+                    [function] => execute
+                    [class] => MysqliDB
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => SELECT usr.* FROM tbl_users as usr WHERE  
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\project\product\HTML\flipkart\api_services\manage.php
+                    [line] => 320
+                    [function] => login_user
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [op] => login_user
+                                    [cookie_id] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [sqlstate:protected] => 42000
+)
+{
+    "__service_time__": "0.69362592697144 seconds",
+    "__offset_seconds__": 0,
+    "success": 0,
+    "message": "Your account is Inactive or this Username does not exist. Please try again or contact support@sailons.com."
+}
+2023-09-11 11:52:27: Auto Login Failed /product/HTML/flipkart/admin_panel/index.php
+2023-09-11 11:52:27: Page View: login.php /product/HTML/flipkart/admin_panel/login.php 

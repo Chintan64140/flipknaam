@@ -1,0 +1,3 @@
+
+2025-03-14 19:00:47: Page View: ajax.php /offer/admin_panel/ajax.php 
+2025-03-14 19:00:48: Page View: logout.php /offer/admin_panel/logout.php 

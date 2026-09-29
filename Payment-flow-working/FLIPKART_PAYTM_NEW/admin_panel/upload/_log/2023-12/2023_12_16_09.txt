@@ -1,0 +1,77 @@
+
+2023-12-16 09:30:37: Page View: index.php /admin_panel/ 
+2023-12-16 09:30:37: Auto Login Needed
+2023-12-16 09:30:38: ERROR: <!DOCTYPE html>
+<html style="height:100%">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title> 301 Moved Permanently
+</title></head>
+<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
+<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
+        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">301</h1>
+<h2 style="margin-top:20px;font-size: 30px;">Moved Permanently
+</h2>
+<p>The document has been permanently moved.</p>
+</div></div></body></html>
+
+2023-12-16 09:30:38: Auto Login Failed /admin_panel/
+2023-12-16 09:30:38: Page View: login.php /admin_panel/login.php 
+2023-12-16 09:31:00: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => fbtfeed9@gmail.com
+            [1] => fbtfeed9@gmail.com
+        )
+
+    [SessionKey] => 1_657d6e54647ce
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-12-16 09:31:00: session_key_value 2 = 1_657d6e54647ce
+2023-12-16 09:31:00: Array
+(
+    [_ga_XFJ0V9X5NX] => GS1.1.1702716167.5.1.1702717562.0.0.0
+    [PHPSESSID] => u60dnplq52vnum4d7oudrk3fbi
+    [_gid] => GA1.2.1137498203.1702717564
+    [_ga] => GA1.2.659418739.1702292948
+    [_ga_J30WFS41YR] => GS1.1.1702717563.4.1.1702719037.0.0.0
+    [_ga_3W6FG4TCGR] => GS1.1.1702717564.4.1.1702719037.0.0.0
+)
+
+2023-12-16 09:31:00: session_key__1 from cookie = 
+2023-12-16 09:31:00: set_user_data_in_session -- DONE 1_657d6e54647ce
+2023-12-16 09:31:00: Page View: index.php /admin_panel/index.php 
+2023-12-16 09:31:02: Page View: manage_products.php /admin_panel/manage_products.php 
+2023-12-16 09:49:48: Page View: logout.php /admin_panel/logout.php 
+2023-12-16 09:49:49: Page View: login.php /admin_panel/login.php 
+2023-12-16 09:50:11: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => fbtfeed9@gmail.com
+            [1] => fbtfeed9@gmail.com
+        )
+
+    [SessionKey] => 1_657d72d3b885d
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-12-16 09:50:11: session_key_value 2 = 1_657d72d3b885d
+2023-12-16 09:50:11: Array
+(
+    [_ga_XFJ0V9X5NX] => GS1.1.1702716167.5.1.1702717562.0.0.0
+    [_gid] => GA1.2.1137498203.1702717564
+    [_ga_J30WFS41YR] => GS1.1.1702717563.4.1.1702719106.0.0.0
+    [_ga_3W6FG4TCGR] => GS1.1.1702717564.4.1.1702719107.0.0.0
+    [_ga] => GA1.1.659418739.1702292948
+    [PHPSESSID] => 5g20010blil7g7sq7qmqpdsjhj
+)
+
+2023-12-16 09:50:11: session_key__1 from cookie = 
+2023-12-16 09:50:11: set_user_data_in_session -- DONE 1_657d72d3b885d
+2023-12-16 09:50:11: Page View: index.php /admin_panel/index.php 
+2023-12-16 09:50:13: Page View: manage_products.php /admin_panel/manage_products.php 

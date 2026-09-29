@@ -1,0 +1,29 @@
+
+2025-03-12 13:19:14: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-12 13:19:14: Auto Login Needed
+2025-03-12 13:19:14: Auto Login Failed /offer/admin_panel/manage_products.php
+2025-03-12 13:19:14: Page View: login.php /offer/admin_panel/login.php 
+2025-03-12 13:19:47: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => bhadorandvo@gmail.com
+            [1] => bhadorandvo@gmail.com
+        )
+
+    [SessionKey] => 1_67d189f3b21ff
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2025-03-12 13:19:47: session_key_value 2 = 1_67d189f3b21ff
+2025-03-12 13:19:47: Array
+(
+    [PHPSESSID] => d10iosdmghk4gpnkfgqnpcu23k
+    [_fbp] => fb.1.1741732580940.7839136130157129
+)
+
+2025-03-12 13:19:47: session_key__1 from cookie = 
+2025-03-12 13:19:47: set_user_data_in_session -- DONE 1_67d189f3b21ff
+2025-03-12 13:19:47: Page View: index.php /offer/admin_panel/index.php 
+2025-03-12 13:19:49: Page View: manage_products.php /offer/admin_panel/manage_products.php 

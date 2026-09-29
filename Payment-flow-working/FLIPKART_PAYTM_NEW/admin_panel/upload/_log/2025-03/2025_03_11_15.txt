@@ -1,0 +1,86 @@
+
+2025-03-11 15:21:11: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-11 15:21:13: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-11 15:21:14: Page View: index.php /offer/admin_panel/index.php 
+2025-03-11 15:21:15: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-11 15:21:17: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-11 15:21:20: Page View: logout.php /offer/admin_panel/logout.php 
+2025-03-11 15:21:20: Page View: login.php /offer/admin_panel/login.php 
+2025-03-11 15:22:16: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => bhadorandvo@gmail.com
+            [1] => bhadorandvo@gmail.com
+        )
+
+    [SessionKey] => 1_67d055280c4c1
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2025-03-11 15:22:16: session_key_value 2 = 1_67d055280c4c1
+2025-03-11 15:22:16: Array
+(
+    [PHPSESSID] => gp8ebv7hc4nepfcr8gaotflbnd
+    [_fbp] => fb.1.1741706483830.796441980326896399
+)
+
+2025-03-11 15:22:16: session_key__1 from cookie = 
+2025-03-11 15:22:16: set_user_data_in_session -- DONE 1_67d055280c4c1
+2025-03-11 15:22:16: Page View: index.php /offer/admin_panel/index.php 
+2025-03-11 15:22:17: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-11 15:26:05: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-11 15:27:51: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-11 15:38:46: Page View: logout.php /offer/admin_panel/logout.php 
+2025-03-11 15:38:47: Page View: login.php /offer/admin_panel/login.php 
+2025-03-11 15:39:08: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => bhadorandvo@gmail.com
+            [1] => bhadorandvo@gmail.com
+        )
+
+    [SessionKey] => 1_67d0591cca56b
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2025-03-11 15:39:08: session_key_value 2 = 1_67d0591cca56b
+2025-03-11 15:39:08: Array
+(
+    [PHPSESSID] => racjg9l73fjheerha99qtn2u5k
+)
+
+2025-03-11 15:39:08: session_key__1 from cookie = 
+2025-03-11 15:39:08: set_user_data_in_session -- DONE 1_67d0591cca56b
+2025-03-11 15:39:08: Page View: index.php /offer/admin_panel/index.php 
+2025-03-11 15:39:09: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-11 15:55:38: Page View: logout.php /offer/admin_panel/logout.php 
+2025-03-11 15:55:39: Page View: login.php /offer/admin_panel/login.php 
+2025-03-11 15:56:43: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => bhadorandvo@gmail.com
+            [1] => bhadorandvo@gmail.com
+        )
+
+    [SessionKey] => 1_67d05d3b543be
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2025-03-11 15:56:43: session_key_value 2 = 1_67d05d3b543be
+2025-03-11 15:56:43: Array
+(
+    [PHPSESSID] => u64vp1od6n7upg4nfi8fhdct93
+    [_fbp] => fb.1.1741708542113.442362521806782023
+)
+
+2025-03-11 15:56:43: session_key__1 from cookie = 
+2025-03-11 15:56:43: set_user_data_in_session -- DONE 1_67d05d3b543be
+2025-03-11 15:56:43: Page View: index.php /offer/admin_panel/index.php 
+2025-03-11 15:56:44: Page View: manage_setting.php /offer/admin_panel/manage_setting.php 
+2025-03-11 15:56:45: Page View: manage_products.php /offer/admin_panel/manage_products.php 

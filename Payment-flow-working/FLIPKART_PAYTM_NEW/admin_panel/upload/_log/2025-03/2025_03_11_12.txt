@@ -1,0 +1,57 @@
+
+2025-03-11 12:34:41: Page View: index.php /offer/admin_panel/ 
+2025-03-11 12:34:41: Auto Login Needed
+2025-03-11 12:34:41: Auto Login Failed /offer/admin_panel/
+2025-03-11 12:34:41: Page View: login.php /offer/admin_panel/login.php 
+2025-03-11 12:35:10: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => bhadorandvo@gmail.com
+            [1] => bhadorandvo@gmail.com
+        )
+
+    [SessionKey] => 1_67d02dfe71abc
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2025-03-11 12:35:10: session_key_value 2 = 1_67d02dfe71abc
+2025-03-11 12:35:10: Array
+(
+    [_fbp] => fb.1.1740780244324.188981099859944505
+    [_ga] => GA1.2.1980001487.1740810159
+    [_ga_9Q6H0QETRF] => GS1.2.1740810159.1.1.1740810428.60.0.0
+    [PHPSESSID] => h2k3p36sdupfu6qvtib4eq604a
+)
+
+2025-03-11 12:35:10: session_key__1 from cookie = 
+2025-03-11 12:35:10: set_user_data_in_session -- DONE 1_67d02dfe71abc
+2025-03-11 12:35:10: Page View: index.php /offer/admin_panel/index.php 
+2025-03-11 12:35:12: Page View: manage_setting.php /offer/admin_panel/manage_setting.php 
+2025-03-11 12:35:15: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-11 12:52:24: Page View: logout.php /offer/admin_panel/logout.php 
+2025-03-11 12:52:25: Page View: login.php /offer/admin_panel/login.php 
+2025-03-11 12:52:58: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => bhadorandvo@gmail.com
+            [1] => bhadorandvo@gmail.com
+        )
+
+    [SessionKey] => 1_67d0322aed0bc
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2025-03-11 12:52:58: session_key_value 2 = 1_67d0322aed0bc
+2025-03-11 12:52:58: Array
+(
+    [PHPSESSID] => hbu6sd7cagsmi47d4h9chd1p1f
+)
+
+2025-03-11 12:52:58: session_key__1 from cookie = 
+2025-03-11 12:52:58: set_user_data_in_session -- DONE 1_67d0322aed0bc
+2025-03-11 12:52:59: Page View: index.php /offer/admin_panel/index.php 
+2025-03-11 12:53:01: Page View: manage_products.php /offer/admin_panel/manage_products.php 

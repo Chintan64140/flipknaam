@@ -1,0 +1,5 @@
+
+2025-03-10 08:22:55: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-10 08:22:55: Auto Login Needed
+2025-03-10 08:22:55: Auto Login Failed /offer/admin_panel/manage_products.php
+2025-03-10 08:22:55: Page View: login.php /offer/admin_panel/login.php 

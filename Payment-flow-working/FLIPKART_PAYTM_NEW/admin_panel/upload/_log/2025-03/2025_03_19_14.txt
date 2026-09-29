@@ -1,0 +1,58 @@
+
+2025-03-19 14:14:37: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-19 14:14:37: Auto Login Needed
+2025-03-19 14:14:37: Auto Login Failed /offer/admin_panel/manage_products.php
+2025-03-19 14:14:37: Page View: login.php /offer/admin_panel/login.php 
+2025-03-19 14:15:19: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => bhadorandvo@gmail.com
+            [1] => bhadorandvo@gmail.com
+        )
+
+    [SessionKey] => 1_67dad1772f11d
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2025-03-19 14:15:19: session_key_value 2 = 1_67dad1772f11d
+2025-03-19 14:15:19: Array
+(
+    [PHPSESSID] => d10iosdmghk4gpnkfgqnpcu23k
+    [_fbp] => fb.1.1741732580940.7839136130157129
+    [_ga] => GA1.2.1769033605.1741787275
+    [_ga_9Q6H0QETRF] => GS1.2.1742230553.2.0.1742230553.60.0.0
+)
+
+2025-03-19 14:15:19: session_key__1 from cookie = 
+2025-03-19 14:15:19: set_user_data_in_session -- DONE 1_67dad1772f11d
+2025-03-19 14:15:19: Page View: index.php /offer/admin_panel/index.php 
+2025-03-19 14:15:27: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-19 14:54:49: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-19 14:54:53: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-19 14:54:56: Page View: logout.php /offer/admin_panel/logout.php 
+2025-03-19 14:54:56: Page View: login.php /offer/admin_panel/login.php 
+2025-03-19 14:56:57: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => bhadorandvo@gmail.com
+            [1] => bhadorandvo@gmail.com
+        )
+
+    [SessionKey] => 1_67dadb39d4188
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2025-03-19 14:56:57: session_key_value 2 = 1_67dadb39d4188
+2025-03-19 14:56:57: Array
+(
+    [PHPSESSID] => 54q8nfim5mcop2lig52gip6rtj
+)
+
+2025-03-19 14:56:57: session_key__1 from cookie = 
+2025-03-19 14:56:57: set_user_data_in_session -- DONE 1_67dadb39d4188
+2025-03-19 14:56:57: Page View: index.php /offer/admin_panel/index.php 
+2025-03-19 14:56:59: Page View: manage_products.php /offer/admin_panel/manage_products.php 

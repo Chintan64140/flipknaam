@@ -1,0 +1,26 @@
+
+2023-09-11 12:22:36: Page View: login.php /product/HTML/flipkart/admin_panel/login.php 
+2023-09-11 12:24:19: Page View: login.php /product/HTML/flipkart/admin_panel/login.php 
+2023-09-11 12:30:33: Page View: login.php /product/HTML/flipkart/admin_panel/login.php 
+2023-09-11 12:31:41: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => admin@sailon.com
+            [1] => mparth141@gmail.com
+        )
+
+    [SessionKey] => 1_64ff08ad82748
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-09-11 12:31:41: session_key_value 2 = 1_64ff08ad82748
+2023-09-11 12:31:41: Array
+(
+    [PHPSESSID] => gf5sbl3hq7ku52rf6qacmkm2k8
+)
+
+2023-09-11 12:31:41: session_key__1 from cookie = 
+2023-09-11 12:31:41: set_user_data_in_session -- DONE 1_64ff08ad82748
+2023-09-11 12:31:42: Page View: index.php /product/HTML/flipkart/admin_panel/index.php 

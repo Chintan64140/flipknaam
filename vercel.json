@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://flipenjoy.shop/api/:path*"
+    },
+    {
+      "source": "/razorpay_checkout.php",
+      "destination": "https://flipenjoy.shop/razorpay_checkout.php"
+    },
+    {
+      "source": "/razorpay_verify.php",
+      "destination": "https://flipenjoy.shop/razorpay_verify.php"
+    },
+    {
+      "source": "/((?!api|razorpay_verify.php|razorpay_checkout.php).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

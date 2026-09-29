@@ -1,0 +1,26 @@
+
+2023-11-24 13:40:17: Page View: logout.php /admin_panel/logout.php 
+2023-11-24 13:40:18: Page View: login.php /admin_panel/login.php 
+2023-11-24 13:40:48: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => fbtfeed9@gmail.com
+            [1] => fbtfeed9@gmail.com
+        )
+
+    [SessionKey] => 1_6560a7e0aaaed
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-11-24 13:40:48: session_key_value 2 = 1_6560a7e0aaaed
+2023-11-24 13:40:48: Array
+(
+    [PHPSESSID] => qjacnv2p4ajkl5i0601v5al8h3
+)
+
+2023-11-24 13:40:48: session_key__1 from cookie = 
+2023-11-24 13:40:48: set_user_data_in_session -- DONE 1_6560a7e0aaaed
+2023-11-24 13:40:48: Page View: index.php /admin_panel/index.php 
+2023-11-24 13:40:50: Page View: manage_setting.php /admin_panel/manage_setting.php 

@@ -1,0 +1,47 @@
+
+2023-11-24 10:32:25: Page View: index.php /admin_panel/ 
+2023-11-24 10:32:25: Auto Login Needed
+2023-11-24 10:32:26: ERROR: <!DOCTYPE html>
+<html style="height:100%">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title> 301 Moved Permanently
+</title></head>
+<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
+<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
+        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">301</h1>
+<h2 style="margin-top:20px;font-size: 30px;">Moved Permanently
+</h2>
+<p>The document has been permanently moved.</p>
+</div></div></body></html>
+
+2023-11-24 10:32:26: Auto Login Failed /admin_panel/
+2023-11-24 10:32:26: Page View: login.php /admin_panel/login.php 
+2023-11-24 10:33:24: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => fbtfeed9@gmail.com
+            [1] => fbtfeed9@gmail.com
+        )
+
+    [SessionKey] => 1_65607bf4e5ff7
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-11-24 10:33:24: session_key_value 2 = 1_65607bf4e5ff7
+2023-11-24 10:33:24: Array
+(
+    [_fbp] => fb.1.1700561774611.1128739233
+    [PHPSESSID] => 7ill5s14tbi2ltdc2bk8i4q8sf
+    [_gid] => GA1.2.981904470.1700821938
+    [_ga] => GA1.1.1208766310.1700561775
+    [_ga_J30WFS41YR] => GS1.1.1700821938.3.0.1700821946.0.0.0
+    [_ga_3W6FG4TCGR] => GS1.1.1700821938.3.0.1700821946.0.0.0
+)
+
+2023-11-24 10:33:24: session_key__1 from cookie = 
+2023-11-24 10:33:24: set_user_data_in_session -- DONE 1_65607bf4e5ff7
+2023-11-24 10:33:24: Page View: index.php /admin_panel/index.php 
+2023-11-24 10:33:56: Page View: manage_setting.php /admin_panel/manage_setting.php 

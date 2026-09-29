@@ -1,0 +1,47 @@
+
+2025-07-10 08:53:04: Page View: index.php /admin_panel/ 
+2025-07-10 08:53:04: Auto Login Needed
+2025-07-10 08:53:04: ERROR: <!DOCTYPE html>
+<html style="height:100%">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title> 301 Moved Permanently
+</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
+<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
+<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
+        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">301</h1>
+<h2 style="margin-top:20px;font-size: 30px;">Moved Permanently
+</h2>
+<p>The document has been permanently moved.</p>
+</div></div></body></html>
+
+2025-07-10 08:53:04: Auto Login Failed /admin_panel/
+2025-07-10 08:53:04: Page View: login.php /admin_panel/login.php 
+2025-07-10 08:53:22: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => admin@fk.com
+            [1] => Kkinght14@gmail.com
+        )
+
+    [SessionKey] => 1_686f7f822613b
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2025-07-10 08:53:22: session_key_value 2 = 1_686f7f822613b
+2025-07-10 08:53:22: Array
+(
+    [_fbp] => fb.1.1749817151594.930814942307809885
+    [_fbc] => fb.1.1750222049810.IwY2xjawK_JDBleHRuA2FlbQIxMQBicmlkETFCTGJxdnhnOXVrNjFhb3JHAR4Vp7dVm7RaGypNf7xZoHWPanvVwZNnglv8D_Kp_SzFHlbWgYSL3uQqupIE2A_aem_KN5gekoracnlBU3LdF72hw
+    [_ga] => GA1.2.589437293.1751963650
+    [PHPSESSID] => 5444tu1uc5u7edlcia8klde3r1
+    [_gid] => GA1.2.1175654790.1752059198
+    [_ga_9Q6H0QETRF] => GS2.2.s1752059198$o3$g0$t1752059198$j60$l0$h0
+)
+
+2025-07-10 08:53:22: session_key__1 from cookie = 
+2025-07-10 08:53:22: set_user_data_in_session -- DONE 1_686f7f822613b
+2025-07-10 08:53:22: Page View: index.php /admin_panel/index.php 
+2025-07-10 08:53:24: Page View: manage_products.php /admin_panel/manage_products.php 

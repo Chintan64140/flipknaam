@@ -1,0 +1,1558 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <title>5KG NUTRIGRASS California Healthy and Tasty Dry Fruit Nut Raw Almonds (Dried) - - Flipkart</title>
+    <link rel="icon" href="https://static-assets-web.flixcart.com/www/promos/new/20150528-140547-favicon-retina.ico"
+        type="image/png">
+    
+    <link href="/assets/css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="/assets/css/bootstrap/bootstrap.css">
+    <!-- Fontawesome CSS Files -->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/fontawesome.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/light.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script type="tailwind-config">
+    {
+      "theme": {
+        "extend": {
+          "colors": {
+            "flip-blue": "#2874f0",
+            "flip-bg": "#f1f3f6",
+            "flip-text": "#212121",
+            "flip-purple": "#e7d9ff"
+          },
+          "fontFamily": {
+            "roboto": ["Roboto", "system-ui", "-apple-system", "Arial", "sans-serif"]
+          }
+        }
+      }
+    }
+  </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('[class*="border"]').forEach(el => {
+                const classList = el.className;
+                const hasBorderColor = /border-[^\s-]+-\d{2,3}/.test(classList);
+                const hasCustomBorder = /border-\[.*?\]/.test(classList);
+                if (!hasBorderColor && !hasCustomBorder) {
+                    el.classList.add('border-gray-200');
+                }
+            });
+        });
+    </script>
+
+    <style>
+        * {
+            user-select: none;
+        }
+
+        .slide {
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .slide.active {
+            opacity: 1;
+        }
+
+        .slide:not(.active) {
+            opacity: 0;
+        }
+
+        .dot.active {
+            background-color: #374151 !important;
+        }
+
+        .dot:not(.active) {
+            background-color: #d1d5db !important;
+        }
+
+        #loading-spinner {
+            transition: opacity 0.5s ease-out;
+        }
+
+        .product-card {
+            border-radius: 8px;
+            transition: transform 0.2s ease;
+        }
+
+        .product-card img {
+            border-radius: 8px 8px 0 0;
+        }
+
+        @media (max-width: 480px) {
+            .product-card {
+                font-size: 12px;
+            }
+
+            .product-card .text-lg {
+                font-size: 16px;
+            }
+
+            .product-card .text-sm {
+                font-size: 13px;
+            }
+
+            .product-card .text-xs {
+                font-size: 11px;
+            }
+        }
+
+        .notification {
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+        }
+
+        .notification.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .carousel-images {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .carousel-item {
+            min-width: 100%;
+        }
+
+        .carousel-indicators {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+        }
+
+        .indicator {
+            width: 6px;
+            height: 6px;
+            background-color: rgb(194, 194, 194);
+            transition: all 0.3s ease;
+        }
+
+        .indicator.active {
+            background-color: rgb(135, 135, 135);
+            transform: scale(1.2);
+            width: 10px;
+        }
+
+        .carousel-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.5);
+            transition: all 0.3s ease;
+            display: none !important;
+        }
+
+        #loadingOverlay {
+            backdrop-filter: blur(2px);
+            transition: opacity 0.3s ease;
+        }
+
+        .loading-spinner {
+            border-width: 3px;
+            border-style: solid;
+            border-color: #e5e7eb;
+            border-top-color: #2563eb;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .product-details-content {
+            transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+            opacity: 0;
+        }
+
+        .product-details-content.expanded {
+            opacity: 1;
+        }
+
+        .product-details-content.collapsed {
+            max-height: 0 !important;
+            opacity: 0;
+        }
+
+        #productDetailsChevron {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #productDetailsChevron.rotated {
+            transform: rotate(180deg);
+        }
+
+        .reviews-content {
+            transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+            opacity: 0;
+        }
+
+        .reviews-content.expanded {
+            opacity: 1;
+        }
+
+        .reviews-content.collapsed {
+            max-height: 0 !important;
+            opacity: 0;
+        }
+
+        #reviewsChevron {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #reviewsChevron.rotated {
+            transform: rotate(180deg);
+        }
+
+        .review-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .line-clamp-2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .review-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <style>
+        /* Override icon font duplicate :after glyphs injected by external CSS */
+        :is(.fad, .fa-duotone, .fadr, .fadl, .fadt, .fasds, .fa-sharp-duotone, .fasdr, .fasdl, .fasdt, .fatl, .fa-thumbprint, .fands, .fa-notdog-duo, .fajdr, .fa-jelly-duo):after {
+            content: none !important;
+            font-feature-settings: normal !important;
+        }
+    </style>
+
+    <style>
+.btn-check {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none;
+
+  &[disabled],
+  &:disabled {
+    + .btn {
+      pointer-events: none;
+      filter: none;
+      opacity: $form-check-btn-check-disabled-opacity;
+    }
+  }
+}        
+
+    .size-selector-container .btn-check+.btn {
+        border-radius: 50%;
+        width: 34px;
+        height: 34px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .size-selector-container .btn-check:checked+.btn {
+        background-color: #FB641B;
+        border-color: #FB641B;
+        color: #fff;
+    }
+
+.btn-outline-secondary {
+        --bs-btn-color: #6c757d;
+        --bs-btn-border-color: #6c757d;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #6c757d;
+        --bs-btn-hover-border-color: #6c757d;
+        --bs-btn-focus-shadow-rgb: 108, 117, 125;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: #6c757d;
+        --bs-btn-active-border-color: #6c757d;
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #6c757d;
+        --bs-btn-disabled-bg: transparent;
+        --bs-btn-disabled-border-color: #6c757d;
+        --bs-gradient: none;
+        --bs-btn-padding-x: 0.75rem;
+        --bs-btn-padding-y: 0.375rem;
+        --bs-btn-font-family: ;
+        --bs-btn-font-size: 1rem;
+        --bs-btn-font-weight: 400;
+        --bs-btn-line-height: 1.5;
+        --bs-btn-bg: transparent;
+        --bs-btn-border-width: 1px;
+        --bs-btn-border-radius: 0.375rem;
+        --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+        --bs-btn-disabled-opacity: 0.65;
+        --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(108, 117, 125, .5);
+        display: flex;
+        padding: 0px;
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgb(108, 117, 125);
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        cursor: pointer;
+        user-select: none;
+        border: 0.8px solid rgb(108, 117, 125);
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0);
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        box-sizing: border-box;
+        width: 34px;
+        height: 34px;
+        align-items: center;
+        justify-content: center;
+    }
+    </style>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17980451196"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17980451196');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KDY47QLDC4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KDY47QLDC4');
+</script></head>
+
+<body class="bg-gray-100 text-flip-text max-w-[480px] mx-auto ![font-family:'Inter']">
+    <!-- Loading Spinner -->
+    <div id="loading-spinner" class="fixed inset-0 z-50 flex items-center justify-center bg-white">
+        <i class="fa-duotone fa-solid fa-spinner-third fa-spin text-6xl text-flip-blue"></i>
+    </div>
+
+    <header id="product-header"
+        class="sticky top-0 z-30 flex items-center justify-between p-2 bg-white border-b border-gray-200">
+        <div class="flex items-center gap-1">
+            <button class="p-2 rounded-lg hover:bg-gray-100" aria-label="Back"
+                data-href="/index.php">
+                <span class="material-icons">arrow_back</span>
+            </button>
+            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-ea579c.png"
+                alt="" class="h-6 w-auto object-contain" style="height: 40px; width: 40px;">
+        </div>
+
+        <div class="flex items-center gap-1" id="right-icons">
+            <button class="p-1 rounded-lg hover:bg-gray-100" aria-label="Search">
+                <span class="text-lg"><i class="fa-solid fa-magnifying-glass"></i></span>
+            </button>
+            <button aria-label="Cart" data-href="/cart.php" class="p-1 rounded-lg hover:bg-gray-100">
+                <span class="text-lg"><svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#212121"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-1.45-5c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.24 17 6.5 17h12v-2H6.5c-.25 0-.42-.21-.38-.45l.93-1.68h7.45z"></path></svg></span>
+                <span id="cartCount"
+                    class="flex items-center justify-center text-center right-10 top-3 text-[8px] w-[15px] h-[15px] text-white font-bold absolute bg-red-500 rounded-full">0</span>
+            </button>
+            <button class="p-1 rounded-lg hover:bg-gray-100">
+                <span class="text-lg"><i class="fa-regular fa-circle-user"></i></span>
+            </button>
+        </div>
+    </header>
+
+    <link rel="stylesheet" href="/assets/css/app.css">
+
+    <main class="bg-gray-100 overflow-x-hidden" style="background: #fff;">
+        <!-- Product Image Carousel -->
+        <div class="w-full bg-white relative fade-in">
+            <div class="w-full bg-white relative h-96 md:h-[400px] overflow-hidden mt-1">
+                <div class="relative w-full h-full">
+                    <div class="carousel-images flex w-full h-full" id="imageCarousel">
+                                                    <div class="carousel-item flex items-center justify-center bg-white ">
+                                <img src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175404138616720250801094306.jpg" 
+                                    class="max-w-full max-h-full w-full h-full object-contain block" />
+                            </div>
+                                                    <div class="carousel-item flex items-center justify-center bg-white ">
+                                <img src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175404138642520250801094306.jpg" 
+                                    class="max-w-full max-h-full w-full h-full object-contain block" />
+                            </div>
+                                                    <div class="carousel-item flex items-center justify-center bg-white ">
+                                <img src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175404138636520250801094306.jpg" 
+                                    class="max-w-full max-h-full w-full h-full object-contain block" />
+                            </div>
+                                                    <div class="carousel-item flex items-center justify-center bg-white ">
+                                <img src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175404138667520250801094306.jpg" 
+                                    class="max-w-full max-h-full w-full h-full object-contain block" />
+                            </div>
+                                                    <div class="carousel-item flex items-center justify-center bg-white ">
+                                <img src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175404138648720250801094306.jpg" 
+                                    class="max-w-full max-h-full w-full h-full object-contain block" />
+                            </div>
+                                            </div>
+
+                    <!-- Navigation Dots -->
+                    <div class="carousel-indicators flex gap-2 justify-center mt-2">
+                                                    <span 
+                                class="indicator rounded-full cursor-pointer active" 
+                                data-slide="0">
+                            </span>
+                                                    <span 
+                                class="indicator rounded-full cursor-pointer " 
+                                data-slide="1">
+                            </span>
+                                                    <span 
+                                class="indicator rounded-full cursor-pointer " 
+                                data-slide="2">
+                            </span>
+                                                    <span 
+                                class="indicator rounded-full cursor-pointer " 
+                                data-slide="3">
+                            </span>
+                                                    <span 
+                                class="indicator rounded-full cursor-pointer " 
+                                data-slide="4">
+                            </span>
+                                            </div>
+
+
+                    <!-- Navigation Arrows -->
+                    <button
+                        class="carousel-nav prev-btn text-white border-none w-10 h-10 rounded-full text-xl cursor-pointer z-10 flex items-center justify-center hidden"
+                        id="prevBtn">‹</button>
+                    <button
+                        class="carousel-nav next-btn text-white border-none w-10 h-10 rounded-full text-xl cursor-pointer z-10 flex items-center justify-center hidden"
+                        id="nextBtn">›</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Info Section -->
+        <section class="section tight fade-in mt-1 bg-white px-4 py-2">
+            <div class="urgency-banner">3633 people ordered this in the last 30 minutes</div>
+            <div class="stock-alert">Only <span class="text-danger">9</span> Left in Stock</div>
+
+                
+
+            <div class="flex flex-col gap-1">
+                <span class="text-[14px] text-gray-900 font-semibold">Seventh Heaven Milan 3 Seater Sofa | Luxury Comfort & Extra Spacious | Sofa | Sofa Set | Wooden Sofa Set for Living Room | Sofa for Living Room & Office (Chenille Molfino - Black)</span>
+
+            </div>
+
+            <div class="d-flex align-items-center mt-2">
+                <span class="rating-box">4.9 <i class="material-icons" style="font-size:12px;">star</i></span>
+                <span class="ratings-count">61,649 Ratings</span>
+            </div>
+
+            <img src="/assets/images/plue-fassured.png" alt="F-Assured" class="fassured-logo">
+
+            <div class="price-container mt-3 d-flex align-items-center">
+                <span class="final-price">₹399</span>
+                <del class="mrp">₹9,999</del>
+                <span class="discount">96% Off</span>
+            </div>
+
+        </section>
+
+        <div class="offers-container">
+            <h6 class="fw-bold mb-3">Available offers</h6>
+            <div class="offer-item">
+                <i class="material-icons offer-icon">sell</i>
+                <div class="offer-text">
+                    <span class="offer-title">Bank Offer</span>
+                    Get ₹25 instant discount on first UPI txns on order of ₹250 and above <a href="#"
+                        class="offer-link">T&amp;C</a>
+                </div>
+            </div>
+            <div class="offer-item">
+                <i class="material-icons offer-icon">sell</i>
+                <div class="offer-text">
+                    <span class="offer-title">Bank Offer</span>
+                    5% Cashback on Axis Bank Card <a href="#" class="offer-link">T&amp;C</a>
+                </div>
+            </div>
+            <div class="offer-item">
+                <i class="material-icons offer-icon">sell</i>
+                <div class="offer-text">
+                    <span class="offer-title">Special Price</span>
+                    Get extra 15% off (price inclusive of cashback/coupon) <a href="#" class="offer-link">T&amp;C</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="delivery-info">
+            <span class="material-icons me-3">local_shipping</span>
+            <div class="delivery-text">
+                <div>
+                    <span class="free">FREE Delivery</span>
+                    <del class="old-fee text-muted">₹75</del>
+                </div>
+                <div>Delivery by • <span class="fw-bold">Thursday, 25 Jun</span></div>
+            </div>
+        </div>
+
+
+        <!-- Similar Products -->
+        <section class="compact-showcase-section">
+            <div class="compact-section-header">
+                <h5 class="fw-bold">Suggested for You</h5>
+                <p class="text-muted small mb-3">Based on Your Activity</p>
+            </div>
+            <div class="compact-carousel-container">
+                <div class="compact-carousel">
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=2" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175406388661720250801155806.jpg"
+                                        alt="2-Seater Indoor &amp; Outdoor Swing - Natural Wooden Polished (50kg) | Upper Pipe Swing Jhula for Home and Blacony with Sturdy Stand | Strong 300 Kg Capacity Heavy Metal Swing"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">2-Seater Indoor &amp; Outdoor Swing - Natural Wooden Polished (50kg) | Upper Pipe Swing Jhula for Home and Blacony with Sturdy Stand | Strong 300 Kg Capacity Heavy Metal Swing</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹389</span>
+                                        <del class="ms-2 text-muted small">₹21,499</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=2" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=3" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/174955680540420250610120005.jpg"
+                                        alt="Skechers CORDOVA CLASSIC"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">Skechers CORDOVA CLASSIC</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹391</span>
+                                        <del class="ms-2 text-muted small">₹6,799</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=3" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=4" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175162609419720250704104814.jpg"
+                                        alt="Bajaj Rex Mixer Grinder 500W | Mixie For Kitchen With Nutri-Pro Features | 3 SS Mixer Jars For Heavy Duty Grinding | Adjustable Speed Control | Multifunctional Blade System | 2 Yr Warranty"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">Bajaj Rex Mixer Grinder 500W | Mixie For Kitchen With Nutri-Pro Features | 3 SS Mixer Jars For Heavy Duty Grinding | Adjustable Speed Control | Multifunctional Blade System | 2 Yr Warranty</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹399</span>
+                                        <del class="ms-2 text-muted small">₹2,299</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=4" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=5" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175200636130620250708202601.jpg"
+                                        alt="Teal Mock Layer kurta, Orange Parallel Pants And Dupatta Set"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">Teal Mock Layer kurta, Orange Parallel Pants And Dupatta Set</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹179</span>
+                                        <del class="ms-2 text-muted small">₹2,199</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=5" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=6" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175162776026320250704111600.jpg"
+                                        alt="Pigeon Healthifry Digital Air Fryer, 360° High Speed Air Circulation Technology 1200 W with Non-Stick 4.2 L Basket - Green"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">Pigeon Healthifry Digital Air Fryer, 360° High Speed Air Circulation Technology 1200 W with Non-Stick 4.2 L Basket - Green</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹391</span>
+                                        <del class="ms-2 text-muted small">₹2,699</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=6" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=7" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/174955509664120250610113136.jpg"
+                                        alt="Skechers Aero Spark"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">Skechers Aero Spark</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹411</span>
+                                        <del class="ms-2 text-muted small">₹6,799</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=7" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=8" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175406512519120250801161845.jpg"
+                                        alt="Premium Leatherette Office Chair for Work | 3-Years Warranty | Boss Chair for Office, Ergonomic Executive Chair, Cushioned Arms &amp; Seat, Leg Rest, Heavy Duty Metal Base (Burgundy)"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">Premium Leatherette Office Chair for Work | 3-Years Warranty | Boss Chair for Office, Ergonomic Executive Chair, Cushioned Arms &amp; Seat, Leg Rest, Heavy Duty Metal Base (Burgundy)</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹399</span>
+                                        <del class="ms-2 text-muted small">₹19,999</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=8" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=9" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175420872172920250803081201.jpg"
+                                        alt="Nothing Phone (2a) Plus 5G (Black, 12GB RAM + 256GB Storage)"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">Nothing Phone (2a) Plus 5G (Black, 12GB RAM + 256GB Storage)</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹599</span>
+                                        <del class="ms-2 text-muted small">₹21,999</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=9" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=10" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175223573134620250711120851.jpg"
+                                        alt="20Kg Atta, 5Kg Sugar, 1Kg Besan, 5L Fortune Oil : Combo of 4"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">20Kg Atta, 5Kg Sugar, 1Kg Besan, 5L Fortune Oil : Combo of 4</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹499</span>
+                                        <del class="ms-2 text-muted small">₹2,999</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=10" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=11" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/174956056322720250610130243.jpg"
+                                        alt="Skechers GO WALK ARCH FIT 2.0 - IDYLLI"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">Skechers GO WALK ARCH FIT 2.0 - IDYLLI</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹411</span>
+                                        <del class="ms-2 text-muted small">₹6,499</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=11" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=12" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175223784625820250711124406.jpg"
+                                        alt="NutriPro Juicer Mixer Grinder - Smoothie Maker - 500 Watts (2 Jar, Silver) - 2 Year Warranty"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">NutriPro Juicer Mixer Grinder - Smoothie Maker - 500 Watts (2 Jar, Silver) - 2 Year Warranty</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹389</span>
+                                        <del class="ms-2 text-muted small">₹6,899</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=12" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=13" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175158720831920250704000008.jpg"
+                                        alt="boAt Aavante Bar A2060 Dolby  "
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">boAt Aavante Bar A2060 Dolby  </p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹389</span>
+                                        <del class="ms-2 text-muted small">₹9,999</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=13" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                    </div>
+            </div>
+        </section>
+
+        <!-- Other Products -->
+        <section class="compact-showcase-section">
+            <div class="compact-section-header">
+                <h5 class="fw-bold">Lowest Price of the Year</h5>
+                <p class="text-muted small mb-3">Best Deals</p>
+            </div>
+            <div class="compact-carousel-container">
+                <div class="compact-carousel">
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=480" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175564367024520250819224750.webp"
+                                        alt="DRYNUTS Premium Berry Mix - 1 KG | Gourmet Blend of Dried Berries | Antioxidant-Rich, All-Natural Healthy Snack"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">DRYNUTS Premium Berry Mix - 1 KG | Gourmet Blend of Dried Berries | Antioxidant-Rich, All-Natural Healthy Snack</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹379</span>
+                                        <del class="ms-2 text-muted small">₹1,399</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=480" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=185" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/174956160615920250610132006.jpg"
+                                        alt="Skechers MAX CUSHIONING ARCH FIT 2	"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">Skechers MAX CUSHIONING ARCH FIT 2	</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹379</span>
+                                        <del class="ms-2 text-muted small">₹10,999</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=185" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=340" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175223834790820250711125227.jpg"
+                                        alt="Afghani Dried Anjeer Zaika 1 Kg"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">Afghani Dried Anjeer Zaika 1 Kg</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹289</span>
+                                        <del class="ms-2 text-muted small">₹1,989</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=340" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=204" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175404194677120250801095226.jpg"
+                                        alt="FURNY Supersoft 3 Seater Fabric Sofa Cum Bed Set (Dark Grey)"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">FURNY Supersoft 3 Seater Fabric Sofa Cum Bed Set (Dark Grey)</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹411</span>
+                                        <del class="ms-2 text-muted small">₹21,499</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=204" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=17" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175162618355120250704104943.jpg"
+                                        alt="NutriPro Juicer Mixer Grinder - Smoothie Maker - 500 Watts (2 Jars &amp; 1 Blade, Silver) - 2 Year Warranty"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">NutriPro Juicer Mixer Grinder - Smoothie Maker - 500 Watts (2 Jars &amp; 1 Blade, Silver) - 2 Year Warranty</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹389</span>
+                                        <del class="ms-2 text-muted small">₹1,599</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=17" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=408" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175420435845620250803065918.jpg"
+                                        alt="Imani 100% Cotton Lace Neck Baby Doll Top"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">Imani 100% Cotton Lace Neck Baby Doll Top</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹259</span>
+                                        <del class="ms-2 text-muted small">₹2,499</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=408" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=35" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/174956065864020250610130418.jpg"
+                                        alt="Skechers D&#039;LUX WALKER 2.0-NEON SITES"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">Skechers D&#039;LUX WALKER 2.0-NEON SITES</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹399</span>
+                                        <del class="ms-2 text-muted small">₹6,799</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=35" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=407" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175200620313220250708202323.jpg"
+                                        alt="Purple Layered Suzani Printed Kurta, Tights And Dupatta Set"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">Purple Layered Suzani Printed Kurta, Tights And Dupatta Set</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹149</span>
+                                        <del class="ms-2 text-muted small">₹2,399</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=407" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=159" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/174955273940120250610105219.jpg"
+                                        alt="Skechers Aero Tempo"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">Skechers Aero Tempo</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹399</span>
+                                        <del class="ms-2 text-muted small">₹6,499</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=159" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=375" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/171561567372920240513155433.jpg"
+                                        alt="Crocs CLASSIC COZZZY SANDAL"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">Crocs CLASSIC COZZZY SANDAL</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹393</span>
+                                        <del class="ms-2 text-muted small">₹6,499</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=375" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=152" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175223773030820250711124210.jpg"
+                                        alt="Bajaj SWX 4 Deluxe 800-Watt 2-Slice Grill Sandwich Maker"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">Bajaj SWX 4 Deluxe 800-Watt 2-Slice Grill Sandwich Maker</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹339</span>
+                                        <del class="ms-2 text-muted small">₹1,699</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=152" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                            <div class="compact-product-card">
+                            <a href="product.php?id=21" class="product-link">
+                                <div class="compact-image-wrapper">
+                                    <img
+                                        src="https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175158715550820250703235915.jpg"
+                                        alt="boAt Aavante Bar 5500DA"
+                                        class="product-image" loading="lazy"></div>
+                                <div class="compact-info-wrapper">
+                                    <p class="product-name">boAt Aavante Bar 5500DA</p>
+                                    <div class="price-line">
+                                        <span class="fw-bold">₹399</span>
+                                        <del class="ms-2 text-muted small">₹17,999</del>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="product.php?id=21" class="compact-add-to-cart-btn">Add to cart</a>
+                        </div>
+                                    </div>
+            </div>
+        </section>
+
+
+
+
+        <div class="product-description-section bootstrap-scope">
+            <h4 class="fw-bold">Product Details</h4>
+            <div class="text-muted mt-2">
+                            </div>
+        </div>
+
+<div class="reviews-container bootstrap-scope">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h3 class="fw-bold m-0">Ratings &amp; Reviews</h3>
+        <button class="btn btn-outline-secondary btn-sm" style="width: unset !important;height: unset !important;border-radius: 0.25rem;font-size: 14px;padding: 4px 8px;line-height: normal;">Rate Product</button>
+    </div>
+    <div class="rating-summary-section">
+        <div class="overall-rating text-center">
+            <div class="rating-value">4.9 <i class="material-icons align-middle" style="color:#388e3c;">star</i></div>
+            <p class="text-muted small">61,649 Ratings</p>
+        </div>
+        <div class="rating-breakdown flex-grow-1">
+            <div class="d-flex align-items-center small">
+                <span>5★</span>
+                <div class="progress mx-2 flex-grow-1" style="height:6px;">
+                    <div class="progress-bar bg-success" style="width: 65%;"></div>
+                </div>
+                <span class="text-muted">20,553</span>
+            </div>
+            <div class="d-flex align-items-center small">
+                <span>4★</span>
+                <div class="progress mx-2 flex-grow-1" style="height:6px;">
+                    <div class="progress-bar bg-success" style="width: 19%;"></div>
+                </div>
+                <span class="text-muted">16,439</span>
+            </div>
+            <div class="d-flex align-items-center small">
+                <span>3★</span>
+                <div class="progress mx-2 flex-grow-1" style="height:6px;">
+                    <div class="progress-bar bg-success" style="width: 9%;"></div>
+                </div>
+                <span class="text-muted">12,329</span>
+            </div>
+            <div class="d-flex align-items-center small">
+                <span>2★</span>
+                <div class="progress mx-2 flex-grow-1" style="height:6px;">
+                    <div class="progress-bar bg-success" style="width: 5%;"></div>
+                </div>
+                <span class="text-muted">8,219</span>
+            </div>
+            <div class="d-flex align-items-center small">
+                <span>1★</span>
+                <div class="progress mx-2 flex-grow-1" style="height:6px;">
+                    <div class="progress-bar bg-success" style="width: 5%;"></div>
+                </div>
+                <span class="text-muted">4,109</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="review-list">
+                    <div class="review-card">
+                <div class="d-flex align-items-center mb-2">
+                    <span class="rating-box me-2">
+                        4.6                        <i class="material-icons" style="font-size:12px;">star</i>
+                    </span>
+                    <h5 class="fw-bold mb-0 small">Value for Money</h5>
+                </div>
+
+                <p class="small">Good product for the price. Delivery was on time and packaging was secure. Satisfied.</p>
+                <p class="text-muted small m-0">
+                    Priya Patel | 16 Nov 2025                </p>
+            </div>
+                    <div class="review-card">
+                <div class="d-flex align-items-center mb-2">
+                    <span class="rating-box me-2">
+                        4.2                        <i class="material-icons" style="font-size:12px;">star</i>
+                    </span>
+                    <h5 class="fw-bold mb-0 small">Value for Money</h5>
+                </div>
+
+                <p class="small">Good product for the price. Delivery was on time and packaging was secure. Satisfied.</p>
+                <p class="text-muted small m-0">
+                    Priya Patel | 14 Nov 2025                </p>
+            </div>
+                    <div class="review-card">
+                <div class="d-flex align-items-center mb-2">
+                    <span class="rating-box me-2">
+                        4.5                        <i class="material-icons" style="font-size:12px;">star</i>
+                    </span>
+                    <h5 class="fw-bold mb-0 small">Excellent Product!</h5>
+                </div>
+
+                <p class="small">The quality is amazing, exactly as described. Very happy with the purchase. Highly recommended!</p>
+                <p class="text-muted small m-0">
+                    Rohan Sharma | 07 Jan 2026                </p>
+            </div>
+                    <div class="review-card">
+                <div class="d-flex align-items-center mb-2">
+                    <span class="rating-box me-2">
+                        4.6                        <i class="material-icons" style="font-size:12px;">star</i>
+                    </span>
+                    <h5 class="fw-bold mb-0 small">Value for Money</h5>
+                </div>
+
+                <p class="small">Good product for the price. Delivery was on time and packaging was secure. Satisfied.</p>
+                <p class="text-muted small m-0">
+                    Priya Patel | 21 Dec 2025                </p>
+            </div>
+                    <div class="review-card">
+                <div class="d-flex align-items-center mb-2">
+                    <span class="rating-box me-2">
+                        4.7                        <i class="material-icons" style="font-size:12px;">star</i>
+                    </span>
+                    <h5 class="fw-bold mb-0 small">Value for Money</h5>
+                </div>
+
+                <p class="small">Good product for the price. Delivery was on time and packaging was secure. Satisfied.</p>
+                <p class="text-muted small m-0">
+                    Priya Patel | 01 Jan 2026                </p>
+            </div>
+            </div>
+</div>
+    </main>
+
+    <div style="height: 60px;"></div>
+    <!-- Bottom CTA -->
+    <!-- <nav class="cta fade-in w-full fixed bottom-0 left-0 right-0 max-w-[480px] mx-auto bg-white border-t p-2 flex gap-2"
+        aria-label="Actions">
+        <button class="mini press w-auto px-8 flex-1 bg-orange-500 text-black hover:text-black rounded py-3 font-semibold"
+            id="addToCartBtn">
+            Add to cart
+        </button>
+        <button
+            class="buy press flex-1 bg-flip-blue text-black hover:text-black active:text-black rounded py-3 font-semibold"
+            id="buyNowBtn">
+            Buy at ₹274
+        </button>
+    </nav> -->
+
+<div class="footerbuttonbuy d-flex bootstrap-scope">
+            <button id="addToCartBtn" class="btn1 btncart w-50">Add To Cart</button>
+        <button id="buyNowBtn" class="btn1 btnbuy w-50">Buy Now</button>
+</div>
+
+    <script>
+    // ===== Address Logic =====
+    document.addEventListener('DOMContentLoaded', () => {
+        const addressBlock = document.getElementById('addressBlockContainer');
+        let html = '';
+
+        try {
+            const data = JSON.parse(localStorage.getItem('addressesData'));
+            const list = data?.addresses?.list;
+            const firstKey = list ? Object.keys(list)[0] : null;
+
+            if (firstKey) {
+                const a = list[firstKey];
+                const type = a.type || 'HOME';
+                const addrLine = `${a.house || ''}, ${a.road || ''}, ${a.city || ''}`.trim();
+
+                html = `
+                    <div class="flex items-center flex-row py-2 px-2 border-b border-gray-100 bg-blue-50 rounded-xl mb-1"
+                        id="addressBlock">
+                        <div class="flex flex-row items-center justify-between w-full">
+                            <div class="flex flex-row items-center justify-start">
+                                <div class="w-6 h-6 flex items-center justify-center text-blue-500">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="margin-right: 8px;">
+                                        <path
+                                            d="M5.52871 3.44173L3.52871 5.01315L3.52871 5.01316C2.77785 5.60312 2.40242 5.8981 2.20121 6.31208C2 6.72607 2 7.20345 2 8.15822V9.85714V10.2998C2 11.42 2 11.9802 2.21799 12.408C2.40973 12.7843 2.71569 13.0903 3.09202 13.282C3.51984 13.5 4.0799 13.5 5.2 13.5C5.48003 13.5 5.62004 13.5 5.727 13.4455C5.82108 13.3976 5.89757 13.3211 5.9455 13.227C6 13.12 6 12.98 6 12.7V10.5C6 10.0286 6 9.79289 6.14645 9.64645C6.29289 9.5 6.5286 9.5 7 9.5H9C9.4714 9.5 9.70711 9.5 9.85355 9.64645C10 9.79289 10 10.0286 10 10.5V12.7C10 12.98 10 13.12 10.0545 13.227C10.1024 13.3211 10.1789 13.3976 10.273 13.4455C10.38 13.5 10.52 13.5 10.8 13.5C11.9201 13.5 12.4802 13.5 12.908 13.282C13.2843 13.0903 13.5903 12.7843 13.782 12.408C14 11.9802 14 11.42 14 10.2998V9.85714V8.15822C14 7.20345 14 6.72607 13.7988 6.31208C13.5976 5.8981 13.2221 5.60312 12.4713 5.01315L10.4713 3.44172C9.28491 2.50957 8.69173 2.0435 8 2.0435C7.30827 2.0435 6.71509 2.50957 5.52871 3.44173Z"
+                                            stroke="#333333ff" stroke-width="1.2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                </div>
+                                <div class=" flex flex-row gap-2 items-center justify-start">
+                                    <span class="text-sm text-gray-800 font-medium" id="addressType">${type}</span>
+                                    <p class="text-xs text-gray-600 leading-snug mt-1" id="addressLine">${addrLine}</p>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="fa-regular fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } else {
+                html = getNoAddressHTML();
+            }
+        } catch {
+            html = getNoAddressHTML();
+        }
+
+        addressBlock.innerHTML = html;
+    });
+
+    function getNoAddressHTML() {
+        return `
+            <div class="flex items-center flex-row py-2 px-2 border-b border-gray-100 bg-blue-50 rounded-xl mb-1">
+                <div class="flex flex-row items-center justify-between w-full">
+                    <div class="flex flex-row items-center justify-start">
+                        <div class="w-6 h-6 flex items-center justify-center text-blue-500">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="margin-right: 8px;">
+                                <path d="M5.52871 3.44173L3.52871 5.01315C2.77785 5.60312 2.40242 5.8981 2.20121 6.31208C2 6.72607 2 7.20345 2 8.15822V9.85714V10.2998C2 11.42 2 11.9802 2.21799 12.408C2.40973 12.7843 2.71569 13.0903 3.09202 13.282C3.51984 13.5 4.0799 13.5 5.2 13.5H10.8C11.9201 13.5 12.4802 13.5 12.908 13.282C13.2843 13.0903 13.5903 12.7843 13.782 12.408C14 11.9802 14 11.42 14 10.2998V8.15822C14 7.20345 14 6.72607 13.7988 6.31208C13.5976 5.8981 13.2221 5.60312 12.4713 5.01315L10.4713 3.44172C9.28491 2.50957 8.69173 2.0435 8 2.0435C7.30827 2.0435 6.71509 2.50957 5.52871 3.44173Z" stroke="#333" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                        <div class="flex flex-row gap-2 items-center justify-start">
+                            <span class="text-sm text-gray-800 font-medium" id="addressType">HOME</span>
+                            <p class="text-xs text-gray-600 leading-snug mt-1" id="addressLine">No Location set</p>
+                        </div>
+                    </div>
+                    <div><i class="fa-regular fa-chevron-right"></i></div>
+                </div>
+            </div>
+        `;
+    }
+    </script>
+
+    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/universal.js"></script>
+
+    <script>
+        const productIdFromPhp = "1";
+        const priceFromPhp = 399.00;
+        const productName = "Seventh Heaven Milan 3 Seater Sofa | Luxury Comfort & Extra Spacious | Sofa | Sofa Set | Wooden Sofa Set for Living Room | Sofa for Living Room & Office (Chenille Molfino - Black)";
+
+        let currentIndex = 0;
+        let isTransitioning = false;
+        let carousel, items, indicators, prevBtn, nextBtn;
+
+        document.addEventListener('DOMContentLoaded', function () {
+            carousel = document.getElementById('imageCarousel');
+            items = carousel.querySelectorAll('.carousel-item');
+            indicators = document.querySelectorAll('.indicator');
+            prevBtn = document.getElementById('prevBtn');
+            nextBtn = document.getElementById('nextBtn');
+
+            initCarousel();
+            initProductDetailsToggle();
+            initReviewsToggle();
+            initCartButtons();
+        });
+
+        function initCarousel() {
+            updateCarousel();
+            if (prevBtn) prevBtn.addEventListener('click', goToPrevious);
+            if (nextBtn) nextBtn.addEventListener('click', goToNext);
+            indicators.forEach((indicator, index) => {
+                indicator.addEventListener('click', () => goToSlide(index));
+            });
+            addTouchSupport();
+        }
+
+        function updateCarousel() {
+            if (!carousel || !items.length) return;
+            const translateX = -currentIndex * 100;
+            carousel.style.transform = `translateX(${translateX}%)`;
+            items.forEach((item, index) => {
+                item.classList.toggle('active', index === currentIndex);
+            });
+            indicators.forEach((indicator, index) => {
+                indicator.classList.toggle('active', index === currentIndex);
+            });
+        }
+
+        function goToSlide(index) {
+            if (isTransitioning || index === currentIndex) return;
+            isTransitioning = true;
+            currentIndex = index;
+            updateCarousel();
+            setTimeout(() => { isTransitioning = false; }, 300);
+        }
+
+        function goToNext() {
+            const nextIndex = (currentIndex + 1) % items.length;
+            goToSlide(nextIndex);
+        }
+
+        function goToPrevious() {
+            const prevIndex = (currentIndex - 1 + items.length) % items.length;
+            goToSlide(prevIndex);
+        }
+
+        function addTouchSupport() {
+            let startX = 0;
+            let startY = 0;
+            let isDragging = false;
+
+            carousel.addEventListener('touchstart', function (e) {
+                startX = e.touches[0].clientX;
+                startY = e.touches[0].clientY;
+                isDragging = true;
+            }, { passive: true });
+
+            carousel.addEventListener('touchmove', function (e) {
+                if (!isDragging) return;
+                const currentX = e.touches[0].clientX;
+                const currentY = e.touches[0].clientY;
+                const diffX = startX - currentX;
+                const diffY = startY - currentY;
+                if (Math.abs(diffX) > Math.abs(diffY)) {
+                    e.preventDefault();
+                }
+            }, { passive: false });
+
+            carousel.addEventListener('touchend', function (e) {
+                if (!isDragging) return;
+                const endX = e.changedTouches[0].clientX;
+                const diffX = startX - endX;
+                if (Math.abs(diffX) > 50) {
+                    if (diffX > 0) {
+                        goToNext();
+                    } else {
+                        goToPrevious();
+                    }
+                }
+                isDragging = false;
+            }, { passive: true });
+        }
+
+        function initProductDetailsToggle() {
+            const toggleButton = document.getElementById('productDetailsToggle');
+            const content = document.getElementById('productDetailsContent');
+            const chevron = document.getElementById('productDetailsChevron');
+
+            if (toggleButton && content && chevron) {
+                content.classList.add('collapsed');
+                toggleButton.addEventListener('click', function () {
+                    const isCollapsed = content.classList.contains('collapsed');
+                    if (isCollapsed) {
+                        content.classList.remove('collapsed');
+                        content.classList.add('expanded');
+                        chevron.classList.add('rotated');
+                        const scrollHeight = content.scrollHeight;
+                        content.style.maxHeight = scrollHeight + 'px';
+                        setTimeout(() => { content.style.maxHeight = 'none'; }, 300);
+                    } else {
+                        content.classList.remove('expanded');
+                        content.classList.add('collapsed');
+                        chevron.classList.remove('rotated');
+                        content.style.maxHeight = content.scrollHeight + 'px';
+                        content.offsetHeight;
+                        content.style.maxHeight = '0px';
+                    }
+                });
+            }
+        }
+
+        function initReviewsToggle() {
+            const reviewsToggleButton = document.getElementById('reviewsToggle');
+            const reviewsContent = document.getElementById('reviewsContent');
+            const reviewsChevron = document.getElementById('reviewsChevron');
+
+            if (reviewsToggleButton && reviewsContent && reviewsChevron) {
+                reviewsContent.classList.add('collapsed');
+                reviewsToggleButton.addEventListener('click', function () {
+                    const isCollapsed = reviewsContent.classList.contains('collapsed');
+                    if (isCollapsed) {
+                        reviewsContent.classList.remove('collapsed');
+                        reviewsContent.classList.add('expanded');
+                        reviewsChevron.classList.add('rotated');
+                        const scrollHeight = reviewsContent.scrollHeight;
+                        reviewsContent.style.maxHeight = scrollHeight + 'px';
+                        setTimeout(() => { reviewsContent.style.maxHeight = 'none'; }, 300);
+                    } else {
+                        reviewsContent.classList.remove('expanded');
+                        reviewsContent.classList.add('collapsed');
+                        reviewsChevron.classList.remove('rotated');
+                        reviewsContent.style.maxHeight = reviewsContent.scrollHeight + 'px';
+                        reviewsContent.offsetHeight;
+                        reviewsContent.style.maxHeight = '0px';
+                    }
+                });
+            }
+        }
+
+        function initCartButtons() {
+            const addBtn = document.getElementById('addToCartBtn');
+            const buyBtn = document.getElementById('buyNowBtn');
+
+            function showGlobalOverlay() {
+                const overlay = document.getElementById('loadingOverlay');
+                if (overlay) overlay.classList.remove('hidden');
+            }
+
+            function hideGlobalOverlay() {
+                const overlay = document.getElementById('loadingOverlay');
+                if (overlay) overlay.classList.add('hidden');
+            }
+
+            function persistToLocalStorage(id) {
+                const unitPrice = Number(priceFromPhp) || 0;
+
+                // Read existing cart data
+                let cartData = null;
+                try {
+                    const stored = localStorage.getItem('cartData');
+                    if (stored) {
+                        cartData = JSON.parse(stored);
+                    }
+                } catch (e) {
+                    console.error('Error reading cart data:', e);
+                }
+
+                // Ensure proper data structure
+                if (!cartData || typeof cartData !== 'object') {
+                    cartData = { cart: { products: {}, totalCount: 0, totalPrice: 0 } };
+                }
+                if (!cartData.cart || typeof cartData.cart !== 'object') {
+                    cartData.cart = { products: {}, totalCount: 0, totalPrice: 0 };
+                }
+                if (!cartData.cart.products || typeof cartData.cart.products !== 'object') {
+                    cartData.cart.products = {};
+                }
+
+                // Get product details from page
+                const productName = 'Seventh Heaven Milan 3 Seater Sofa | Luxury Comfort & Extra Spacious | Sofa | Sofa Set | Wooden Sofa Set for Living Room | Sofa for Living Room & Office (Chenille Molfino - Black)';
+                const productMrp = 9999.00;
+                const productImage = 'https://pub-48cc73cacc8444b8b58f28180c4556be.r2.dev/assets/uploads/uploads/175404138616720250801094306.jpg';
+                const productDiscount = '96%';
+                const productRating = '4.9';
+                const productReviews = '61,649';
+
+                // Check if product already exists
+                if (cartData.cart.products[id]) {
+                    // Product already in cart, increase quantity
+                    cartData.cart.products[id].quantity = (cartData.cart.products[id].quantity || 0) + 1;
+                    cartData.cart.totalCount = (cartData.cart.totalCount || 0) + 1;
+                    cartData.cart.totalPrice = (cartData.cart.totalPrice || 0) + unitPrice;
+                } else {
+                    // New product, add to cart with complete details
+                    cartData.cart.products[id] = {
+                        quantity: 1,
+                        price: unitPrice,
+                        name: productName,
+                        mrp: productMrp,
+                        thumbnail: productImage,
+                        discount: productDiscount,
+                        rating: productRating,
+                        total_reviews: productReviews
+                    };
+                    cartData.cart.totalCount = (cartData.cart.totalCount || 0) + 1;
+                    cartData.cart.totalPrice = (cartData.cart.totalPrice || 0) + unitPrice;
+                }
+
+                // Save to localStorage
+                try {
+                    localStorage.setItem('cartData', JSON.stringify(cartData));
+                    console.log('Cart saved:', cartData);
+                    return { existed: true };
+                } catch (e) {
+                    console.error('Error saving cart:', e);
+                    return { existed: false };
+                }
+            }
+
+            function safeUpdateCartCount() {
+                if (typeof updateCartCount === 'function') {
+                    updateCartCount();
+                }
+            }
+
+            function showAddedToast() {
+                let toast = document.getElementById('fk-cart-toast');
+                if (!toast) {
+                    toast = document.createElement('div');
+                    toast.id = 'fk-cart-toast';
+                    toast.innerHTML = '<div class="whitespace-nowrap" style="display:flex;justify-content:space-between;align-items:center;padding:12px 16px;color:#fff;background:#212121;border-radius:4px;box-shadow:0 4px 12px rgba(0,0,0,.2);width:100%;max-width:380px;"><span class="whitespace-nowrap" style="font-size:13px;">Item added to cart</span><a href="cart.php" style="color:#f5a623;font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.08em;">Go to cart</a></div>';
+                    toast.style.position = 'fixed';
+                    toast.style.left = '50%';
+                    toast.classList.add('w-full', 'px-4');
+                    toast.style.bottom = '16px';
+                    toast.style.transform = 'translate(-50%, 20px)';
+                    toast.style.opacity = '0';
+                    toast.style.zIndex = '1000';
+                    toast.style.transition = 'all 0.3s ease';
+                    document.body.appendChild(toast);
+                }
+                requestAnimationFrame(() => {
+                    toast.style.opacity = '1';
+                    toast.style.transform = 'translate(-50%, 0)';
+                });
+                setTimeout(() => {
+                    toast.style.opacity = '0';
+                    toast.style.transform = 'translate(-50%, 20px)';
+                }, 3600);
+            }
+
+            if (addBtn) {
+                addBtn.addEventListener('click', function () {
+                    if (!productIdFromPhp) return;
+                    showGlobalOverlay();
+                    setTimeout(() => {
+                        persistToLocalStorage(String(productIdFromPhp));
+                        hideGlobalOverlay();
+                        safeUpdateCartCount();
+                        showAddedToast();
+                    }, 500);
+                });
+            }
+
+            if (buyBtn) {
+                buyBtn.addEventListener('click', function () {
+                    if (!productIdFromPhp) return;
+                    showGlobalOverlay();
+                    setTimeout(() => {
+                        persistToLocalStorage(String(productIdFromPhp));
+                        hideGlobalOverlay();
+                        safeUpdateCartCount();
+                        window.location.href = 'address.php';
+                    }, 500);
+                });
+            }
+        }
+
+        // Section reveal on scroll
+        const io = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.classList.add('show');
+                    io.unobserve(e.target);
+                }
+            });
+        }, { threshold: .12 });
+        document.querySelectorAll('.fade-in').forEach(el => io.observe(el));
+    </script>
+    
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const autoScrollCarousels = document.querySelectorAll('.compact-carousel');
+    function initAutoScroll(carousel) {
+        if (carousel.children.length === 0) return;
+        // Clone nodes only if there are enough children to fill the carousel area
+        // This prevents infinite loop or broken layout if too few products
+        const initialChildrenCount = carousel.children.length;
+        if (initialChildrenCount > 0) {
+            for (let i = 0; i < initialChildrenCount; i++) {
+                carousel.appendChild(carousel.children[i].cloneNode(true));
+            }
+        }
+
+        let animationFrameId = null;
+        const scrollSpeed = 0.7;
+        const scrollStep = () => {
+            carousel.scrollLeft += scrollSpeed;
+            // When half of the original content has scrolled past, reset to the beginning
+            if (carousel.scrollLeft >= carousel.scrollWidth / 2) {
+                carousel.scrollLeft = 0;
+            }
+            animationFrameId = requestAnimationFrame(scrollStep);
+        };
+        const startScrolling = () => { if (!animationFrameId) { animationFrameId = requestAnimationFrame(scrollStep); } };
+        const stopScrolling = () => { if (animationFrameId) { cancelAnimationFrame(animationFrameId); animationFrameId = null; } };
+        carousel.addEventListener('mouseenter', stopScrolling);
+        carousel.addEventListener('mouseleave', startScrolling);
+        startScrolling();
+    }
+    autoScrollCarousels.forEach(carousel => { initAutoScroll(carousel); });
+});
+</script>
+<link href="/assets/css/style.css" rel="stylesheet">
+  <link href="/assets/css/bootstrap/bootstrap.css" rel="stylesheet">
+<footer class="bg-dark text-white mt-5 bootstrap-scope" style="background: #343a40 !important">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <h5>Bestindiansale</h5>
+                <p>Shop the latest trends in fashion, electronics, and home goods. Experience fast delivery and secure payments with us.</p>
+            </div>
+            <div class="col-md-3 mb-3 mb-md-0">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="about-us.php" class="text-white-50">About Us</a></li>
+                    <li><a href="contact-us.php" class="text-white-50">Contact Us</a></li>
+                    <li><a href="privacy-policy.php" class="text-white-50">Privacy Policy</a></li>
+                    <li><a href="terms-conditions.php" class="text-white-50">Terms &amp; Conditions</a></li>
+                     <li><a href="shipping-policy.php" class="text-white-50">Shipping Policy</a></li>
+                       <li><a href="return-policy.php" class="text-white-50">Return &amp; Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Contact Us</h5>
+                <ul class="list-unstyled">
+                    <li><i class="bi bi-geo-alt-fill me-2"></i> Shakti Plot Main Rd, near HDFC Bank, Shakti Plot, Sardar Nagar, Morbi, Gujarat 363641</li>
+                    <li><i class="bi bi-envelope-fill me-2"></i> contact@bestindiansale.info</li>
+                    <li><i class="bi bi-phone-fill me-2"></i> +91 94234 56789</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="mt-4 mb-3">
+        <div class="text-center">
+            <p class="mb-0">© 2026 Bestindiansale. All rights reserved.</p>
+        </div>
+    </div>
+</footer>

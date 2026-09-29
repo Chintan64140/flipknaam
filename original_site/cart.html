@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>
+    My Cart  </title>
+  <link rel="icon" href="https://static-assets-web.flixcart.com/www/promos/new/20150528-140547-favicon-retina.ico" type="image/png">
+
+  <!-- Google Fonts Links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+  <!-- // Font Awesome Icons -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script type="tailwind-config">
+    {
+      "theme": {
+        "extend": {
+          "colors": {
+            "flip-blue": "#2874f0",
+            "flip-bg": "#f1f3f6",
+            "flip-text": "#212121",
+            "flip-purple": "#e7d9ff"
+          },
+          "fontFamily": {
+            "roboto": ["Roboto", "system-ui", "-apple-system", "Arial", "sans-serif"]
+          }
+        }
+      }
+    }
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('[class*="border"]').forEach(el => {
+        const classList = el.className;
+        const hasBorderColor = /border-[^\s-]+-\d{2,3}/.test(classList);
+        const hasCustomBorder = /border-\[.*?\]/.test(classList);
+    
+        if (!hasBorderColor && !hasCustomBorder) {
+          el.classList.add('border-gray-200');
+        }
+      });
+    });
+  </script>
+
+
+  <style>
+    /* Custom slider styles */
+    *{
+        user-select: none;
+    }
+    
+    .slide {
+      transition: opacity 0.3s ease-in-out;
+    }
+    
+    .slide.active {
+      opacity: 1;
+    }
+    
+    .slide:not(.active) {
+      opacity: 0;
+    }
+    
+    .dot.active {
+      background-color: #374151 !important;
+    }
+    
+    .dot:not(.active) {
+      background-color: #d1d5db !important;
+    }
+    
+    /* Loading spinner fade transition */
+    #loading-spinner {
+      transition: opacity 0.5s ease-out;
+    }
+    
+    /* Product card mobile styling to match image design */
+    .product-card {
+      border-radius: 0;
+      transition: transform 0.2s ease;
+    }
+    
+    .product-card img {
+      border-radius: 8px 8px 0 0;
+    }
+    
+    /* Mobile-specific grid adjustments */
+    @media (max-width: 480px) {
+      
+      .product-card {
+        font-size: 12px;
+      }
+      
+      .product-card .text-lg {
+        font-size: 16px;
+      }
+      
+      .product-card .text-sm {
+        font-size: 13px;
+      }
+      
+      .product-card .text-xs {
+        font-size: 11px;
+      }
+    }
+    
+    /* Notification styles */
+    .notification {
+      opacity: 0;
+      transform: translateY(-10px);
+      transition: all 0.3s ease;
+    }
+    
+    .notification.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17980451196"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17980451196');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KDY47QLDC4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KDY47QLDC4');
+</script></head>
+
+<body class="bg-gray-100 text-flip-text max-w-[480px] mx-auto ![font-family:'Inter']">
+  <!-- Loading Spinner -->
+  <div id="loading-spinner" class="fixed inset-0 z-50 flex items-center justify-center bg-white">
+    <i class="fa-duotone fa-solid fa-spinner-third fa-spin text-6xl text-flip-blue"></i>
+  </div>
+
+      <header id="product-header" class="sticky top-0 z-30 flex items-center justify-between p-2 bg-white border-b border-gray-200">
+  <!-- Left -->
+ <div class="flex items-center gap-1">
+  <button class="p-2 rounded-lg hover:bg-gray-100" 
+          aria-label="Back" 
+          data-href="/index.php">
+    <span class="text-lg"><span class="material-icons">arrow_back</span>
+</span>
+  </button>
+  <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-ea579c.png" alt="" class="h-6 w-auto object-contain" style="height: 40px; width: 40px;">
+
+  <span id="cartText" class="text-base font-medium cursor-pointer text-gray-500">
+    My Cart
+  </span>
+</div>
+
+<script>
+document.getElementById('cartText').addEventListener('click', function() {
+  this.classList.remove('text-gray-500');
+  this.classList.add('text-black');
+});
+</script>
+
+
+  <!-- Right -->
+  <div class="flex items-center gap-1" id="right-icons">
+    <button class="p-1 rounded-lg hover:bg-gray-100" aria-label="Search">
+      <span class="text-lg"><i class="fa-whiteboard fa-semibold fa-magnifying-glass"></i></span>
+    </button>
+    <button aria-label="Cart" data-href="/cart.php" class="p-1 rounded-lg hover:bg-gray-100" aria-label="Cart">
+      <span class="text-lg"><i class="fa-solid fa-cart-shopping"></i></span>
+      <span id="cartCount" class="flex items-center justify-center text-center right-10 top-3 text-[8px] w-[15px] h-[15px] text-white font-bold absolute bg-red-500 rounded-full">1</span>
+    </button>
+    <button class="p-1 rounded-lg hover:bg-gray-100">
+      <span class="text-lg"><i class="fa-regular fa-circle-user-circle-check"></i></span>
+    </button>
+  </div>
+</header>
+
+  
+<!-- Include Sidebar -->
+
+<!-- Sidebar Overlay -->
+<div id="sidebar-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden" onclick="closeSidebar()"></div>
+
+<!-- Sidebar -->
+<div id="sidebar" class="fixed left-0 top-0 h-full w-80 max-w-[85vw] bg-white z-50 transform -translate-x-full transition-transform duration-300 ease-in-out shadow-2xl !text-gray-500">
+  
+  <!-- Header Section with Blue Bar -->
+  <div class="bg-flip-blue text-white p-3">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+          <i class="fa-light fa-circle-user text-lg"></i>
+        </div>
+        <span class="font-medium">User</span>
+      </div>
+      <div class="w-6 h-6 bg-yellow-400 rounded-full flex items-center justify-center">
+        <img class="text-flip-blue font-bold text-lg" src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-cbb357.png">
+      </div>
+    </div>
+  </div>
+
+  <!-- Menu Items -->
+  <div class="py-2 overflow-y-auto h-[calc(100vh-80px)]">
+    <!-- First Group: Zones & Categories -->
+    <div class="px-4 py-2">
+      <div class="flex items-center gap-3 mt-2 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px] !text-gray-500">
+        <i class="fa-solid fa-circle-bolt"></i>
+        <span class=" font-medium">SuperCoin Zone</span>
+      </div>
+      
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px] !text-gray-500">
+        <i class="fa-light fa-gem "></i>
+        <span class=" font-medium">Flipkart Plus Zone</span>
+      </div>
+      
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px] !text-gray-500">
+        <i class="fa-light fa-th-large "></i>
+        <span class=" font-medium">All Categories</span>
+      </div>
+      
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px] !text-gray-500">
+        <i class="fa-notdog fa-solid fa-compass"></i>
+        <span class=" font-medium">More on Flipkart</span>
+      </div>
+    </div>
+
+    <!-- Separator -->
+    <div class="border-t border-gray-200 mx-4 my-2"></div>
+
+    <!-- Second Group: App Settings/Features -->
+    <div class="px-4 py-2">
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px]">
+        <div class="w-6 h-6 rounded flex items-center justify-center ">
+            <i class="fa-notdog fa-solid fa-language"></i>
+        </div>
+        <span class=" font-medium">Choose Language</span>
+      </div>
+      
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px]">
+        <i class="fa-light fa-tag  text-lg"></i>
+        <span class=" font-medium">Offer Zone</span>
+      </div>
+      
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px]">
+        <i class="fa-light fa-briefcase  text-lg"></i>
+        <span class=" font-medium">Sell on Flipkart</span>
+      </div>
+    </div>
+
+    <!-- Separator -->
+    <div class="border-t border-gray-200 mx-4 my-2"></div>
+
+    <!-- Third Group: User-Specific Actions -->
+    <div class="px-4 py-2">
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px]" data-href="">
+        <i class="fa-light fa-box  text-lg"></i>
+        <span class=" font-medium">My Orders</span>
+      </div>
+      
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px]" data-href="">
+        <i class="fa-light fa-tag  text-lg"></i>
+        <span class=" font-medium">Coupons</span>
+      </div>
+      
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px]" data-href="/cart.php">
+        <i class="fa-light fa-cart-shopping  text-lg"></i>
+        <span class=" font-medium">My Cart</span>
+      </div>
+      
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100" data-href="">
+        <i class="fa-light fa-heart  text-lg"></i>
+        <span class=" font-medium">My Wishlist</span>
+      </div>
+      
+      <div class="flex items-center gap-3 mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px]" data-href="">
+        <i class="fa-light fa-circle-user  text-lg"></i>
+        <span class=" font-medium">My Account</span>
+      </div>
+      
+      <div class="flex items-center gap-3 pmb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100 text-[14px]" data-href="">
+        <i class="fa-light fa-bell  text-lg"></i>
+        <span class=" font-medium">My Notifications</span>
+      </div>
+    </div>
+
+    <!-- Separator -->
+    <div class="border-t border-gray-200 mx-4 my-2"></div>
+
+    <!-- Fourth Group: Help & Legal -->
+    <div class="px-4 py-2">
+      <div class="mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100">
+        <span class=" font-medium">Help Centre</span>
+      </div>
+      
+      <div class="mb-2 hover:bg-gray-50 rounded-lg px-2 cursor-pointer transition-colors duration-200 active:bg-gray-100">
+        <span class=" font-medium">Legal</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+/* Additional mobile-specific styles */
+@media (max-width: 480px) {
+  #sidebar {
+    width: 85vw;
+    max-width: 320px;
+  }
+  
+  #sidebar .py-3 {
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
+  }
+  
+  #sidebar .text-lg {
+    font-size: 1.125rem;
+  }
+}
+
+/* Touch-friendly interactions */
+#sidebar [data-href],
+#sidebar .cursor-pointer {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+/* Smooth scrolling for mobile */
+#sidebar .overflow-y-auto {
+  -webkit-overflow-scrolling: touch;
+}
+</style>
+
+<script>
+// Sidebar functionality
+function openSidebar() {
+  document.getElementById('sidebar').classList.remove('-translate-x-full');
+  document.getElementById('sidebar-overlay').classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeSidebar() {
+  document.getElementById('sidebar').classList.add('-translate-x-full');
+  document.getElementById('sidebar-overlay').classList.add('hidden');
+  document.body.style.overflow = 'auto';
+}
+
+// Close sidebar on escape key
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Escape') {
+    closeSidebar();
+  }
+});
+
+// Handle navigation clicks
+document.addEventListener('click', function(event) {
+  if (event.target.closest('[data-href]')) {
+    const href = event.target.closest('[data-href]').getAttribute('data-href');
+    closeSidebar();
+    
+    // Navigate to the specified page
+    if (href === 'cart') {
+      window.location.href = 'cart.php';
+    } else if (href === 'index') {
+      window.location.href = 'index.php';
+    } else {
+      // Add other navigation logic here
+      console.log('Navigating to:', href);
+    }
+  }
+});
+
+// Close sidebar when clicking outside (on overlay)
+document.addEventListener('click', function(event) {
+  if (event.target.id === 'sidebar-overlay') {
+    closeSidebar();
+  }
+});
+
+// Prevent body scroll when sidebar is open
+document.addEventListener('touchmove', function(event) {
+  if (document.getElementById('sidebar-overlay').classList.contains('hidden') === false) {
+    event.preventDefault();
+  }
+}, { passive: false });
+</script>
+
+<main class="bg-white">
+  <style>
+    #right-icons {
+      display: none !important;
+    }
+  </style>
+
+  
+  <!-- Empty Cart Section -->
+  <section id="emptyCartSection" class="flex flex-col items-center justify-center py-10 px-4 text-center bg-gray-100" style="display:none">
+    <div class="relative w-24 h-24 mb-4">
+      <i class="fa-light fa-cart-minus text-7xl"></i>
+    </div>
+    <h2
+      class="text-[22px] leading-[30px] text-[#111112] tracking-[-0.02px] text-center [font-family:'Inter'] font-semibold">
+      Your cart is empty!
+    </h2>
+    <button onclick="location.href='/'"
+      class="mt-4 bg-flip-blue text-white px-10 py-2 rounded font-medium hover:bg-blue-600 bg-blue-600 [font-family:'Inter'] font-semibold">
+      Shop now
+    </button>
+  </section>
+
+  <!-- Full Cart Section -->
+  <section id="fullCartSection" class="py-3 bg-gray-100">
+    <div class="flex flex-col bg-white pt-2">
+      <div id="cartItems"></div>
+    </div>
+
+
+    <!-- Price Details -->
+    <div class="mt-4 border border-gray-200 rounded-lg bg-gray-50 mx-4 p-3">
+      <!-- Header -->
+      <div class="flex justify-between items-center mb-1 cursor-pointer" id="toggle-price-details">
+        <h2 class="font-semibold text-[15px]">Price Details</h2>
+        <i class="fa-solid fa-chevron-up text-gray-500 text-xs transition-transform duration-300" id="chevron"></i>
+      </div>
+
+      <!-- Collapsible content -->
+      <div id="price-details-content"
+        class="overflow-hidden transition-all duration-300 ease-in-out max-h-96 opacity-100">
+        <hr class="w-full border-t border-gray-300 border-dotted mb-3">
+
+        <div class="flex justify-between text-sm mb-1">
+          <span class="flex items-center gap-1">
+            Price (<span id="pd-items-count">0</span> item<span id="pd-items-s" class="-ml-1">s</span> )
+            <i class="fa-solid fa-circle-info text-gray-400 text-xs"></i>
+          </span>
+          <span id="pd-price-items">₹0</span>
+        </div>
+        <div class="flex justify-between text-sm mb-1 text-green-600">
+          <span>Discount</span>
+          <span id="pd-discount">- ₹0</span>
+        </div>
+        <div class="flex justify-between text-sm mb-1">
+          <span class="flex items-center gap-1">
+            Platform Fee
+            <i class="fa-solid fa-circle-info text-gray-400 text-xs"></i>
+          </span>
+          <span id="pd-fee">₹0</span>
+        </div>
+      </div>
+
+      <!-- Always visible -->
+      <div class="flex justify-between font-semibold mt-2 border-t border-gray-400 pt-2">
+        <span>Total Amount</span>
+        <span id="pd-total">₹0</span>
+      </div>
+      <div class="bg-green-100 text-green-700 text-xs p-2 rounded mt-2">
+        You will save ₹<span id="save-amount">0</span> on this order
+      </div>
+    </div>
+
+
+    <!-- Bottom Checkout -->
+    <div
+      class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 p-3 flex justify-between items-center max-w-[480px] mx-auto">
+      <div class="flex flex-col">
+        <span id="btm-mrp" class="text-[13px] text-gray-500 line-through">0</span>
+        <span class="text-[18px] font-semibold text-[#111112] flex items-center gap-1">
+          <span id="btm-total">0</span>
+          <i class="fa-solid fa-circle-info text-gray-400 text-xs"></i>
+        </span>
+      </div>
+      <button onclick="window.location.href='changeAddress.php'" class="bg-yellow-400 text-[#111112] px-8 py-3 rounded font-semibold hover:bg-yellow-500">
+        Place order
+      </button>
+    </div>
+    <div class="mt-4 flex items-center gap-2 text-[13px] text-gray-600 bg-gray-100 px-10 py-2 rounded mx-auto">
+      <img class="w-[26px] h-[32px]"
+        src="https://rukminim1.flixcart.com/www/52/64/promos/13/02/2019/9b179a8a-a0e2-497b-bd44-20aa733dc0ec.png?q=90"
+        alt="secure">
+      <span class="font-bold">Safe and secure payments. Easy returns. 100% Authentic products.</span>
+    </div>
+
+  </section>
+
+</main>
+<script src="/assets/js/footer.js"></script>
+
+<script>
+  function ensureCartShape(data) {
+    if (!data || typeof data !== 'object') data = {};
+    if (!data.cart) data.cart = { products: {}, totalCount: 0, totalPrice: 0 };
+    if (!data.cart.products) data.cart.products = {};
+    if (typeof data.cart.totalCount !== 'number') data.cart.totalCount = 0;
+    if (typeof data.cart.totalPrice !== 'number') data.cart.totalPrice = 0;
+    return data;
+  }
+
+  function getCartData() {
+    return ensureCartShape(JSON.parse(localStorage.getItem('cartData') || '{}'));
+  }
+
+  function setCartData(cartData) {
+    localStorage.setItem('cartData', JSON.stringify(cartData));
+  }
+
+  function updateTotalsUI() {
+    const cart = getCartData().cart;
+    const items = cart.products;
+    let totalMrp = 0, total = 0, save = 0, totalCount = 0, totalPrice = 0;
+    const idToMrp = {};
+    const idToPrice = {};
+    // read mrp cached on rows if available
+    document.querySelectorAll('#cartItems [data-pid]').forEach(row => {
+      const pid = row.getAttribute('data-pid');
+      const mrpEl = row.querySelector('[data-mrp]');
+      const priceEl = row.querySelector('[data-price]');
+      const mrpText = mrpEl ? mrpEl.textContent.replace(/[^\d.]/g, '') : '0';
+      const priceText = priceEl ? priceEl.textContent.replace(/[^\d.]/g, '') : '0';
+      const priceVal = Number(priceText) || 0;
+      const mrpVal = Number(mrpText) || 0;
+      idToMrp[pid] = mrpVal;
+      idToPrice[pid] = priceVal;
+      console.log('PID:', pid, 'MRP:', mrpVal, 'Price:', priceVal);
+    });
+    
+    Object.entries(items).forEach(([pid, it]) => {
+      const qty = Number(it.quantity || 0);
+      const unit = Number(it.price || 0);
+      const mrp = Number(idToMrp[pid] || unit);
+      const price = Number(idToPrice[pid] || unit);
+    
+      total += unit * qty;       // total selling price
+      totalMrp += mrp * qty;     // total MRP
+      totalCount += qty;         // total quantity
+      totalPrice += price * qty; // total price
+    });
+
+    const randomExtraDiscount = Math.floor(Math.random() * (50 - 20 + 1)) + 20; // 20..50
+    const finalDiscount = totalMrp - total;
+    const finalPayable = totalPrice;
+
+    const countEl = document.getElementById('pd-items-count');
+    const pluralEl = document.getElementById('pd-items-s');
+    if (countEl) countEl.textContent = totalCount;
+    if (pluralEl) pluralEl.style.display = totalCount === 1 ? 'none' : '';
+
+    document.getElementById('pd-price-items').textContent = '₹' + totalMrp.toLocaleString('en-IN');
+    document.getElementById('pd-discount').textContent = '- ₹' + finalDiscount.toLocaleString('en-IN');
+    document.getElementById('pd-fee').textContent = '₹0';
+    document.getElementById('pd-total').textContent = '₹' + finalPayable.toLocaleString('en-IN');
+    document.getElementById('btm-mrp').textContent = totalMrp.toLocaleString('en-IN');
+    document.getElementById('btm-total').textContent = finalPayable.toLocaleString('en-IN');
+    const saveEl = document.getElementById('save-amount');
+    if (saveEl) saveEl.textContent = finalDiscount.toLocaleString('en-IN');
+  }
+
+  function renderCart() {
+    const cartData = getCartData();
+    const products = cartData.cart.products;
+    const ids = Object.keys(products);
+    
+    console.log('🛒 Cart Data:', cartData);
+    console.log('📦 Products:', products);
+    console.log('🔢 Product IDs:', ids);
+    
+    const emptySection = document.getElementById('emptyCartSection');
+    const fullSection = document.getElementById('fullCartSection');
+    if (ids.length === 0) {
+      if (fullSection) fullSection.style.display = 'none';
+      if (emptySection) emptySection.style.display = '';
+      return;
+    }
+    if (emptySection) emptySection.style.display = 'none';
+    if (fullSection) fullSection.style.display = '';
+
+    // Read products directly from localStorage - NO API CALL
+    const container = document.getElementById('cartItems');
+    container.innerHTML = '';
+    const rows = [];
+    
+    ids.forEach(id => {
+      const item = products[id];
+      console.log(`📦 Product ${id}:`, item);
+      
+      const qty = Number(item.quantity || 1);
+      const unit = Number(item.price || 0);
+      const title = item.name || 'Product';
+      const img = item.thumbnail || 'https://via.placeholder.com/144x144.png?text=No+Image';
+      const rating = Number(item.rating || 0);
+      const reviews = Number(item.total_reviews || 0);
+      const mrp = Number(item.mrp || unit);
+      const discount = item.discount || '0%';
+      const lineTotal = unit * qty;
+      const butAt = lineTotal - 50;
+      
+      console.log(`✅ Product ${id} parsed: ${title}, ₹${unit}, Qty: ${qty}`);
+
+          const row = document.createElement('div');
+          row.className = 'flex flex-col bg-white pt-2 border-b border-gray-100';
+          row.dataset.pid = id;
+          row.innerHTML = `
+            <div class="flex items-start gap-3 px-4">
+              <div class="flex items-center gap-3 flex-col">
+                <img src="${img}" alt="${title}" class="w-20 h-20 object-contain border border-gray-200 rounded-md">
+                <div class="mt-2">
+                  <div class="relative inline-block">
+                    <span class="absolute left-2 top-1/2 -translate-y-1/2 pointer-events-none text-[13px] text-gray-700 -mx-2 px-2"> Qty: </span>
+                    <span class="absolute right-1 top-1/2 -translate-y-1/2 pointer-events-none text-gray-500 text-[10px]"> &#9660; </span>
+                    <select class="qtySelect text-[13px] border border-gray-300 rounded px-2 py-1 appearance-none bg-white outline-none pl-10 pr-4">
+                      ${[...Array(4)].map((_,i)=>`<option value="${i+1}" ${i+1===qty?'selected':''}>${i+1}</option>`).join('')}
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-1">
+                <h1 class="text-[15px] leading-5 font-medium text-[#111112] [font-family:'Inter']"> ${title} </h1>
+                <p class="text-[12px] text-gray-400 mt-0.5"></p>
+                <div class="flex items-center gap-2 mt-1 whitespace-nowrap">
+                  <div class="flex items-center gap-1 font-bold">
+                    <span class="cart-stars" data-rating="${rating}"></span>
+                    <span class="text-[12px] text-green-600">${rating ? rating.toFixed(1) : '0.0'}</span>
+                    <span class="text-[12px] text-gray-500">(${reviews.toLocaleString('en-IN')})</span>
+                  </div>
+                  <div class="flex items-center gap-1">
+                    <img src="https://rukminim1.flixcart.com/www/120/40/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90" class="w-full max-w-[60px] max-h-[20px] h-full">
+                  </div>
+                </div>
+                <div class="mt-2">
+                  <div class="flex items-center gap-2">
+                    <span class="text-green-600 text-[15px] font-semibold">↓${discount}</span>
+                    <span class="text-gray-500 line-through text-[15px]" data-mrp>₹${mrp.toLocaleString('en-IN')}</span>
+                    <span class="text-lg font-semibold text-[#111112]" data-price>₹${unit.toLocaleString('en-IN')}</span>
+                  </div>
+                  <div class="mt-1 flex flex-row items-center">
+                    <img src="https://rukminim1.flixcart.com/www/78/24/promos/25/06/2025/9a7159fa-4de3-4092-af10-c306d6fcc383.png?q=90" alt="" class="w-full max-w-[39px] max-h-[12px] h-full">
+                    <span class="text-[13px] text-blue-600 ml-2">Buy at ₹${butAt.toLocaleString('en-IN')}</span>
+                  </div>
+                  <div class="text-[12px] text-gray-600 mt-1 flex flex-row items-center gap-1">
+                    <span class="text-[13px] text-gray-500"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex mt-3 text-[13px] font-medium text-gray-600 flex-col ">
+              <div class="flex flex-row items-center gap-2 mx-4">
+                <img class="w-[20px] h-[20px]" src="https://rukminim1.flixcart.com/www/40/40/promos/08/02/2024/63b2986a-2e31-4812-ae8a-cc676b233161.png?q=90" loading="lazy">
+                <span class="italic font-bold text-sm [font-family: 'Seoge UI']">EXPRESS</span>
+                <span class="text-[12px] ">Delivery by tomorrow, 11 PM </span>
+              </div>
+              <div class="flex flex-col mt-2">
+                <hr class="w-full border-t border-gray-100">
+                <div class="cart-item-actions flex flex-row mx-4 justify-between gap-1">
+                  <button class="removeBtn flex items-center gap-1 hover:text-red-500 px-2 py-3">
+                    <i class="fa-solid fa-trash text-xs"></i>
+                    Remove
+                  </button>
+                  <button class="flex items-center gap-1 px-2 py-3 border-l border-r border-gray-100">
+                    <i class="fa-solid fa-download text-xs"></i>
+                    Save for later
+                  </button>
+                  <button class="flex items-center gap-1 px-2 py-3">
+                    <i class="fa-solid fa-bolt text-xs"></i>
+                    Buy this now
+                  </button>
+                </div>
+              </div>
+              <hr class="w-full border-t border-gray-100">
+            </div>`;
+
+          container.appendChild(row);
+        });
+
+        // Render SVG stars like product cards
+        container.querySelectorAll('.cart-stars').forEach((el, idx) => {
+          const rating = parseFloat(el.getAttribute('data-rating') || '0');
+          const uid = 'cart-' + idx + '-' + Date.now();
+          const starCount = 5;
+          const starSize = 12; const gap = 3; const totalWidth = (starCount * starSize) + ((starCount - 1) * gap);
+          const starPath = 'M12 .587l3.668 7.431 8.2 1.193-5.934 5.787 1.402 8.168L12 18.896 4.664 23.166l1.402-8.168L.132 9.211l8.2-1.193z';
+          let svg = `<svg width="${totalWidth}" height="22" viewBox="0 0 ${totalWidth} 16" xmlns="http://www.w3.org/2000/svg" aria-label="Rating ${rating} out of 5">`;
+          for (let i=0;i<starCount;i++){
+            const fill = rating >= i+1 ? 1 : (rating>i ? rating - i : 0);
+            const x = i * (starSize + gap);
+            const scale = starSize / 24;
+            const id = `starclip-${uid}-${i}`;
+            svg += `<defs><clipPath id="${id}"><path d="${starPath}" transform="translate(${x},0) scale(${scale})"/></clipPath></defs>`;
+            svg += `<path d="${starPath}" transform="translate(${x},0) scale(${scale})" fill="#D3D9E4" stroke="rgba(0,0,0,0.15)" stroke-width="0.5"/>`;
+            if (fill>0){ const w = starSize*fill; svg += `<rect x="${x}" y="0" width="${w}" height="${starSize}" fill="#0B9C40" clip-path="url(#${id})"/>`; }
+          }
+          svg += `</svg>`;
+          el.innerHTML = svg;
+        });
+
+        // Wire events
+        container.querySelectorAll('.qtySelect').forEach(sel => {
+          sel.addEventListener('change', (e) => {
+            const row = e.target.closest('[data-pid]');
+            const id = row.dataset.pid;
+            const q = Number(e.target.value || 1);
+            const data = getCartData();
+            if (data.cart.products[id]) {
+              data.cart.products[id].quantity = q;
+            }
+            // recompute totals
+            data.cart.totalCount = Object.values(data.cart.products).reduce((s, it)=> s + Number(it.quantity||0), 0);
+            data.cart.totalPrice = Object.values(data.cart.products).reduce((s, it)=> s + Number(it.quantity||0)*Number(it.price||0), 0);
+            setCartData(data);
+            // Update line total
+            const unit = Number(data.cart.products[id]?.price || 0);
+            updateTotalsUI();
+            // update header count text
+            const countEl = document.getElementById('pd-items-count');
+            const pluralEl = document.getElementById('pd-items-s');
+            if (countEl) countEl.textContent = data.cart.totalCount;
+            if (pluralEl) pluralEl.style.display = data.cart.totalCount === 1 ? 'none' : '';
+          });
+        });
+
+        container.querySelectorAll('.removeBtn').forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            const row = e.target.closest('[data-pid]');
+            const id = row.dataset.pid;
+            const data = getCartData();
+            if (data.cart && data.cart.products && data.cart.products[id]) {
+              delete data.cart.products[id];
+              data.cart.totalCount = Object.values(data.cart.products).reduce((s, it)=> s + Number(it.quantity||0), 0);
+              data.cart.totalPrice = Object.values(data.cart.products).reduce((s, it)=> s + Number(it.quantity||0)*Number(it.price||0), 0);
+              if (Object.keys(data.cart.products).length === 0) {
+                localStorage.removeItem('cartData');
+              } else {
+                setCartData(data);
+              }
+            }
+            row.remove();
+            const fresh = getCartData();
+            if (!fresh.cart || !fresh.cart.products || Object.keys(fresh.cart.products).length === 0) {
+              const emptySection = document.getElementById('emptyCartSection');
+              const fullSection = document.getElementById('fullCartSection');
+              if (fullSection) fullSection.style.display = 'none';
+              if (emptySection) emptySection.style.display = '';
+            }
+            updateTotalsUI();
+          });
+        });
+
+        updateTotalsUI();
+  }
+
+  document.addEventListener('DOMContentLoaded', renderCart);
+</script>
+
+<footer class="h-20"></footer>
+</main>
+  <script src="/assets/js/app.js"></script>
+  <script src="/assets/js/universal.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (typeof updateCartCount === "function") {
+        updateCartCount();
+      }
+    });
+  </script>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"63bffc2a7918498cbcfe38613ca500cf","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"31014a6d22cf48089c34d4b5ef62a560","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+
+</html>

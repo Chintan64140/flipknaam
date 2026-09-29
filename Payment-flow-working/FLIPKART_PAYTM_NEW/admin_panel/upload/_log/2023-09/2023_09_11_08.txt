@@ -1,0 +1,54 @@
+
+2023-09-11 08:23:41: Page View: index.php /product/HTML/flipkart/admin_panel/index.php 
+2023-09-11 08:23:46: Page View: manage_setting.php /product/HTML/flipkart/admin_panel/manage_setting.php 
+2023-09-11 08:23:49: Page View: logout.php /product/HTML/flipkart/admin_panel/logout.php 
+2023-09-11 08:23:52: Page View: login.php /product/HTML/flipkart/admin_panel/login.php 
+2023-09-11 08:24:06: Page View: login.php /product/HTML/flipkart/admin_panel/login.php 
+2023-09-11 08:24:49: Page View: login.php /product/HTML/flipkart/admin_panel/login.php 
+2023-09-11 08:33:09: Page View: login.php /product/HTML/flipkart/admin_panel/login.php 
+2023-09-11 08:33:51: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => admin@sailon.com
+            [1] => admin
+        )
+
+    [SessionKey] => 1_64fed0ef9dac5
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-09-11 08:33:51: session_key_value 2 = 1_64fed0ef9dac5
+2023-09-11 08:33:51: Array
+(
+    [PHPSESSID] => fk3fk1nqlrn6epg9va21cbj374
+)
+
+2023-09-11 08:33:51: session_key__1 from cookie = 
+2023-09-11 08:33:51: set_user_data_in_session -- DONE 1_64fed0ef9dac5
+2023-09-11 08:33:52: Page View: index.php /product/HTML/flipkart/admin_panel/index.php 
+2023-09-11 08:33:59: Page View: logout.php /product/HTML/flipkart/admin_panel/logout.php 
+2023-09-11 08:34:01: Page View: login.php /product/HTML/flipkart/admin_panel/login.php 
+2023-09-11 08:35:15: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => admin@sailon.com
+            [1] => admin
+        )
+
+    [SessionKey] => 1_64fed14327798
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-09-11 08:35:15: session_key_value 2 = 1_64fed14327798
+2023-09-11 08:35:15: Array
+(
+    [PHPSESSID] => gf5sbl3hq7ku52rf6qacmkm2k8
+)
+
+2023-09-11 08:35:15: session_key__1 from cookie = 
+2023-09-11 08:35:15: set_user_data_in_session -- DONE 1_64fed14327798
+2023-09-11 08:35:15: Page View: index.php /product/HTML/flipkart/admin_panel/index.php 

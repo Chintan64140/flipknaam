@@ -1,0 +1,156 @@
+
+2023-09-09 15:12:25: Page View: login.php /product/HTML/flipkart/admin_panel/login.php 
+2023-09-09 15:12:32: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => admin@sailon.com
+            [1] => admin
+        )
+
+    [SessionKey] => 1_64fc8b60030bc
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-09-09 15:12:33: session_key_value 2 = 1_64fc8b60030bc
+2023-09-09 15:12:33: Array
+(
+    [_fbp] => fb.0.1693730886785.214163812
+    [PHPSESSID] => 5roneovo9a4pe747qccckfuail
+)
+
+2023-09-09 15:12:33: session_key__1 from cookie = 
+2023-09-09 15:12:33: set_user_data_in_session -- DONE 1_64fc8b60030bc
+2023-09-09 15:12:33: Page View: index.php /product/HTML/flipkart/admin_panel/index.php 
+2023-09-09 15:12:36: Page View: manage_setting.php /product/HTML/flipkart/admin_panel/manage_setting.php 
+2023-09-09 15:16:14: Page View: logout.php /product/HTML/flipkart/admin_panel/logout.php 
+2023-09-09 15:16:16: Page View: login.php /product/HTML/flipkart/admin_panel/login.php 
+2023-09-09 15:16:24: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => admin@sailon.com
+            [1] => admin
+        )
+
+    [SessionKey] => 1_64fc8c481f623
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-09-09 15:16:24: session_key_value 2 = 1_64fc8c481f623
+2023-09-09 15:16:24: Array
+(
+    [PHPSESSID] => 3766o48n26lmq0vuujicauos4m
+)
+
+2023-09-09 15:16:24: session_key__1 from cookie = 
+2023-09-09 15:16:24: set_user_data_in_session -- DONE 1_64fc8c481f623
+2023-09-09 15:16:24: Page View: index.php /product/HTML/flipkart/admin_panel/index.php 
+2023-09-09 15:16:26: Page View: manage_setting.php /product/HTML/flipkart/admin_panel/manage_setting.php 
+2023-09-09 15:18:10: Page View: manage_setting.php /product/HTML/flipkart/admin_panel/manage_setting.php 
+2023-09-09 15:21:45: Page View: manage_setting.php /product/HTML/flipkart/admin_panel/manage_setting.php 
+2023-09-09 15:21:51: Page View: logout.php /product/HTML/flipkart/admin_panel/logout.php 
+2023-09-09 15:21:54: Page View: login.php /product/HTML/flipkart/admin_panel/login.php 
+2023-09-09 15:22:59: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => admin@sailon.com
+            [1] => admin
+        )
+
+    [SessionKey] => 1_64fc8dd3cd0cf
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-09-09 15:22:59: session_key_value 2 = 1_64fc8dd3cd0cf
+2023-09-09 15:23:00: Array
+(
+    [PHPSESSID] => fgthrill83nk3nd1dabiscbfnr
+)
+
+2023-09-09 15:23:00: session_key__1 from cookie = 
+2023-09-09 15:23:00: set_user_data_in_session -- DONE 1_64fc8dd3cd0cf
+2023-09-09 15:23:00: Page View: index.php /product/HTML/flipkart/admin_panel/index.php 
+2023-09-09 15:23:04: Page View: logout.php /product/HTML/flipkart/admin_panel/logout.php 
+2023-09-09 15:23:06: Page View: login.php /product/HTML/flipkart/admin_panel/login.php 
+2023-09-09 15:23:09: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => admin@sailon.com
+            [1] => admin
+        )
+
+    [SessionKey] => 1_64fc8ddda8660
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-09-09 15:23:09: session_key_value 2 = 1_64fc8ddda8660
+2023-09-09 15:23:09: Array
+(
+    [PHPSESSID] => dr00qo23acceat39motr1ohija
+)
+
+2023-09-09 15:23:09: session_key__1 from cookie = 
+2023-09-09 15:23:09: set_user_data_in_session -- DONE 1_64fc8ddda8660
+2023-09-09 15:23:09: Page View: index.php /product/HTML/flipkart/admin_panel/index.php 
+2023-09-09 15:23:12: Page View: logout.php /product/HTML/flipkart/admin_panel/logout.php 
+2023-09-09 15:23:13: Page View: login.php /product/HTML/flipkart/admin_panel/login.php 
+2023-09-09 15:23:42: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => admin@sailon.com
+            [1] => admin
+        )
+
+    [SessionKey] => 1_64fc8dfea9f2c
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-09-09 15:23:42: session_key_value 2 = 1_64fc8dfea9f2c
+2023-09-09 15:23:42: Array
+(
+    [PHPSESSID] => cr6ei7049a1mf8c65pkfj5578p
+)
+
+2023-09-09 15:23:42: session_key__1 from cookie = 
+2023-09-09 15:23:42: set_user_data_in_session -- DONE 1_64fc8dfea9f2c
+2023-09-09 15:23:43: Page View: index.php /product/HTML/flipkart/admin_panel/index.php 
+2023-09-09 15:23:46: Page View: logout.php /product/HTML/flipkart/admin_panel/logout.php 
+2023-09-09 15:26:44: Page View: logout.php /product/HTML/flipkart/admin_panel/logout.php 
+2023-09-09 15:27:38: Page View: logout.php /product/HTML/flipkart/admin_panel/logout.php 
+2023-09-09 15:28:30: Page View: logout.php /product/HTML/flipkart/admin_panel/logout.php 
+2023-09-09 15:28:57: Page View: logout.php /product/HTML/flipkart/admin_panel/logout.php 
+2023-09-09 15:29:01: Page View: login.php /product/HTML/flipkart/admin_panel/login.php 
+2023-09-09 15:29:05: Array
+(
+    [UserID] => 1
+    [UserInfo] => Array
+        (
+            [0] => admin@sailon.com
+            [1] => admin
+        )
+
+    [SessionKey] => 1_64fc8f4194bf1
+    [cookie_user] => c7JFr4NljavQT4IGmI1Mkw==
+)
+
+2023-09-09 15:29:05: session_key_value 2 = 1_64fc8f4194bf1
+2023-09-09 15:29:05: Array
+(
+    [PHPSESSID] => oj319scq2iilooqptin8hl9oho
+)
+
+2023-09-09 15:29:05: session_key__1 from cookie = 
+2023-09-09 15:29:05: set_user_data_in_session -- DONE 1_64fc8f4194bf1
+2023-09-09 15:29:05: Page View: index.php /product/HTML/flipkart/admin_panel/index.php 
+2023-09-09 15:29:11: Page View: manage_setting.php /product/HTML/flipkart/admin_panel/manage_setting.php 
+2023-09-09 15:29:17: Page View: logout.php /product/HTML/flipkart/admin_panel/logout.php 
+2023-09-09 15:29:19: Page View: login.php /product/HTML/flipkart/admin_panel/login.php 

@@ -1,0 +1,4 @@
+
+2025-03-11 16:02:08: Page View: manage_products.php /offer/admin_panel/manage_products.php 
+2025-03-11 16:13:27: Page View: logout.php /offer/admin_panel/logout.php 
+2025-03-11 16:13:28: Page View: login.php /offer/admin_panel/login.php 
